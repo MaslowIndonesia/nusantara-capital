@@ -1,0 +1,241 @@
+{
+ "generated": "2026-07-11",
+ "as_of": "2026-07-06",
+ "hit_rate": 0.5333,
+ "brier": 0.2482,
+ "base_up_rate": 0.4687,
+ "edge_vs_base": 0.002,
+ "n_oos": 236844,
+ "features": [
+  "st_reversal(-1d)",
+  "mom5",
+  "vol20"
+ ],
+ "model": "walk-forward logistic",
+ "honest_note": "Next-day DIRECTION is near-random; this is the measured out-of-sample hit-rate, NOT a target. Anything claiming 90% next-day accuracy is overfit or fiction.",
+ "top_up": [
+  {
+   "ticker": "STAA",
+   "p_up": 0.541
+  },
+  {
+   "ticker": "SAME",
+   "p_up": 0.536
+  },
+  {
+   "ticker": "DOID",
+   "p_up": 0.533
+  },
+  {
+   "ticker": "MKTR",
+   "p_up": 0.528
+  },
+  {
+   "ticker": "PUDP",
+   "p_up": 0.528
+  },
+  {
+   "ticker": "TRGU",
+   "p_up": 0.528
+  },
+  {
+   "ticker": "PSGO",
+   "p_up": 0.519
+  },
+  {
+   "ticker": "INTP",
+   "p_up": 0.515
+  },
+  {
+   "ticker": "MDIY",
+   "p_up": 0.514
+  },
+  {
+   "ticker": "SHIP",
+   "p_up": 0.513
+  },
+  {
+   "ticker": "BMHS",
+   "p_up": 0.51
+  },
+  {
+   "ticker": "MYOH",
+   "p_up": 0.509
+  },
+  {
+   "ticker": "CARS",
+   "p_up": 0.508
+  },
+  {
+   "ticker": "CNMA",
+   "p_up": 0.507
+  },
+  {
+   "ticker": "ARTO",
+   "p_up": 0.506
+  },
+  {
+   "ticker": "CPIN",
+   "p_up": 0.504
+  },
+  {
+   "ticker": "LTLS",
+   "p_up": 0.503
+  },
+  {
+   "ticker": "MTEL",
+   "p_up": 0.503
+  },
+  {
+   "ticker": "PANS",
+   "p_up": 0.503
+  },
+  {
+   "ticker": "ARNA",
+   "p_up": 0.502
+  },
+  {
+   "ticker": "DLTA",
+   "p_up": 0.502
+  },
+  {
+   "ticker": "MPMX",
+   "p_up": 0.502
+  },
+  {
+   "ticker": "UNIQ",
+   "p_up": 0.502
+  },
+  {
+   "ticker": "POWR",
+   "p_up": 0.501
+  },
+  {
+   "ticker": "HOKI",
+   "p_up": 0.5
+  },
+  {
+   "ticker": "LION",
+   "p_up": 0.5
+  },
+  {
+   "ticker": "SUNI",
+   "p_up": 0.5
+  },
+  {
+   "ticker": "UCID",
+   "p_up": 0.5
+  },
+  {
+   "ticker": "DILD",
+   "p_up": 0.499
+  },
+  {
+   "ticker": "PBID",
+   "p_up": 0.499
+  },
+  {
+   "ticker": "MAHA",
+   "p_up": 0.498
+  },
+  {
+   "ticker": "MEGA",
+   "p_up": 0.498
+  },
+  {
+   "ticker": "BSIM",
+   "p_up": 0.497
+  },
+  {
+   "ticker": "SSIA",
+   "p_up": 0.497
+  },
+  {
+   "ticker": "TRIM",
+   "p_up": 0.497
+  },
+  {
+   "ticker": "AMFG",
+   "p_up": 0.496
+  },
+  {
+   "ticker": "BEST",
+   "p_up": 0.496
+  },
+  {
+   "ticker": "TSPC",
+   "p_up": 0.496
+  },
+  {
+   "ticker": "DAAZ",
+   "p_up": 0.495
+  },
+  {
+   "ticker": "ITMG",
+   "p_up": 0.495
+  }
+ ],
+ "top_down": [
+  {
+   "ticker": "RSGK",
+   "p_up": 0.35
+  },
+  {
+   "ticker": "ISAT",
+   "p_up": 0.377
+  },
+  {
+   "ticker": "AMMN",
+   "p_up": 0.382
+  },
+  {
+   "ticker": "IMPC",
+   "p_up": 0.391
+  },
+  {
+   "ticker": "OMED",
+   "p_up": 0.4
+  },
+  {
+   "ticker": "MAIN",
+   "p_up": 0.402
+  },
+  {
+   "ticker": "BANK",
+   "p_up": 0.402
+  },
+  {
+   "ticker": "ANTM",
+   "p_up": 0.404
+  },
+  {
+   "ticker": "TPMA",
+   "p_up": 0.405
+  },
+  {
+   "ticker": "BBTN",
+   "p_up": 0.407
+  },
+  {
+   "ticker": "MDKA",
+   "p_up": 0.408
+  },
+  {
+   "ticker": "SCMA",
+   "p_up": 0.41
+  },
+  {
+   "ticker": "SGRO",
+   "p_up": 0.414
+  },
+  {
+   "ticker": "INCO",
+   "p_up": 0.414
+  },
+  {
+   "ticker": "NCKL",
+   "p_up": 0.416
+  }
+ ],
+ "disclaimer": "Research / paper ONLY. A probability, not a recommendation. Forward-tracked for honesty."
+}
