@@ -249,7 +249,7 @@
  "all_tested": 12,
  "learning": {
   "n_runs": 4,
-  "rank_stability": 0.5,
+  "rank_stability": 0.0,
   "persistent_top3": [
    {
     "strategy": "dual_momentum",
