@@ -66,9 +66,9 @@
   }
  },
  "ledger": {
-  "rows": 136,
+  "rows": 148,
   "latest": {
-   "date": "2026-07-14",
+   "date": "2026-07-15",
    "best_factor": "bab",
    "top_n": "10",
    "weight": "ew",
@@ -82,64 +82,14 @@
    "dsr_sig": "False",
    "pbo": "0.065",
    "n_trials": "96",
-   "total_runs": "136",
+   "total_runs": "148",
    "conviction": "low"
   },
   "forward_status": "accruing",
   "recent": [
    {
-    "date": "2026-07-13",
-    "run": 125,
-    "factor": "bab",
-    "oos_cagr": 0.0,
-    "oos_calmar": 0.0,
-    "dsr_sig": false,
-    "n_trials": 96,
-    "conviction": "low"
-   },
-   {
-    "date": "2026-07-13",
-    "run": 126,
-    "factor": "bab",
-    "oos_cagr": 0.0,
-    "oos_calmar": 0.0,
-    "dsr_sig": false,
-    "n_trials": 96,
-    "conviction": "low"
-   },
-   {
-    "date": "2026-07-13",
-    "run": 127,
-    "factor": "bab",
-    "oos_cagr": 0.0,
-    "oos_calmar": 0.0,
-    "dsr_sig": false,
-    "n_trials": 96,
-    "conviction": "low"
-   },
-   {
-    "date": "2026-07-13",
-    "run": 128,
-    "factor": "bab",
-    "oos_cagr": 0.0,
-    "oos_calmar": 0.0,
-    "dsr_sig": false,
-    "n_trials": 96,
-    "conviction": "low"
-   },
-   {
-    "date": "2026-07-13",
-    "run": 129,
-    "factor": "bab",
-    "oos_cagr": 0.0,
-    "oos_calmar": 0.0,
-    "dsr_sig": false,
-    "n_trials": 96,
-    "conviction": "low"
-   },
-   {
-    "date": "2026-07-13",
-    "run": 130,
+    "date": "2026-07-14",
+    "run": 137,
     "factor": "bab",
     "oos_cagr": 0.0,
     "oos_calmar": 0.0,
@@ -149,7 +99,7 @@
    },
    {
     "date": "2026-07-14",
-    "run": 131,
+    "run": 138,
     "factor": "bab",
     "oos_cagr": 0.0,
     "oos_calmar": 0.0,
@@ -159,7 +109,7 @@
    },
    {
     "date": "2026-07-14",
-    "run": 132,
+    "run": 139,
     "factor": "bab",
     "oos_cagr": 0.0,
     "oos_calmar": 0.0,
@@ -168,8 +118,8 @@
     "conviction": "low"
    },
    {
-    "date": "2026-07-14",
-    "run": 133,
+    "date": "2026-07-15",
+    "run": 140,
     "factor": "bab",
     "oos_cagr": 0.0,
     "oos_calmar": 0.0,
@@ -178,8 +128,8 @@
     "conviction": "low"
    },
    {
-    "date": "2026-07-14",
-    "run": 134,
+    "date": "2026-07-15",
+    "run": 141,
     "factor": "bab",
     "oos_cagr": 0.0,
     "oos_calmar": 0.0,
@@ -188,8 +138,8 @@
     "conviction": "low"
    },
    {
-    "date": "2026-07-14",
-    "run": 135,
+    "date": "2026-07-15",
+    "run": 142,
     "factor": "bab",
     "oos_cagr": 0.0,
     "oos_calmar": 0.0,
@@ -198,8 +148,58 @@
     "conviction": "low"
    },
    {
-    "date": "2026-07-14",
-    "run": 136,
+    "date": "2026-07-15",
+    "run": 143,
+    "factor": "bab",
+    "oos_cagr": 0.0,
+    "oos_calmar": 0.0,
+    "dsr_sig": false,
+    "n_trials": 96,
+    "conviction": "low"
+   },
+   {
+    "date": "2026-07-15",
+    "run": 144,
+    "factor": "bab",
+    "oos_cagr": 0.0,
+    "oos_calmar": 0.0,
+    "dsr_sig": false,
+    "n_trials": 96,
+    "conviction": "low"
+   },
+   {
+    "date": "2026-07-15",
+    "run": 145,
+    "factor": "bab",
+    "oos_cagr": 0.0,
+    "oos_calmar": 0.0,
+    "dsr_sig": false,
+    "n_trials": 96,
+    "conviction": "low"
+   },
+   {
+    "date": "2026-07-15",
+    "run": 146,
+    "factor": "bab",
+    "oos_cagr": 0.0,
+    "oos_calmar": 0.0,
+    "dsr_sig": false,
+    "n_trials": 96,
+    "conviction": "low"
+   },
+   {
+    "date": "2026-07-15",
+    "run": 147,
+    "factor": "bab",
+    "oos_cagr": 0.0,
+    "oos_calmar": 0.0,
+    "dsr_sig": false,
+    "n_trials": 96,
+    "conviction": "low"
+   },
+   {
+    "date": "2026-07-15",
+    "run": 148,
     "factor": "bab",
     "oos_cagr": 0.0,
     "oos_calmar": 0.0,
@@ -350,7 +350,7 @@
    6.5654,
    7.6157,
    7.78,
-   7.6548,
+   7.6547,
    7.7505,
    7.7891,
    7.7613,
