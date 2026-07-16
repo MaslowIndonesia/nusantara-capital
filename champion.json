@@ -14,10 +14,10 @@
   "holdings": [
    "SILO",
    "WIKA",
-   "MTEL",
    "ITMG",
-   "BYAN",
+   "MTEL",
    "MYOR",
+   "BYAN",
    "BJBR",
    "BNGA",
    "INDF",
@@ -32,10 +32,10 @@
   "hold": [
    "SILO",
    "WIKA",
-   "MTEL",
    "ITMG",
-   "BYAN",
+   "MTEL",
    "MYOR",
+   "BYAN",
    "BJBR",
    "BNGA",
    "INDF"
@@ -43,10 +43,10 @@
   "betas": {
    "SILO": -0.16,
    "WIKA": 0.0,
-   "MTEL": 0.15,
    "ITMG": 0.15,
+   "MTEL": 0.15,
+   "MYOR": 0.34,
    "BYAN": 0.35,
-   "MYOR": 0.35,
    "BJBR": 0.35,
    "BNGA": 0.36,
    "INDF": 0.36,
@@ -463,7 +463,7 @@
    1.0993,
    0.9682,
    0.8917,
-   0.9591
+   0.9652
   ],
   "drawdown": [
    0.0,
