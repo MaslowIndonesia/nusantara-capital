@@ -1,0 +1,199 @@
+{
+ "generated": "2026-07-18",
+ "title": "Nusantara Capital \u2014 loop upgrades & accuracy",
+ "accuracy": {
+  "overall_forward_hit_1pct": 0.327,
+  "n_scored": 324,
+  "calibration": {
+   "n": 280,
+   "predicted_p": 0.282,
+   "realized_p": 0.307,
+   "ratio": 1.09,
+   "goal": 1.0
+  },
+  "by_verdict": {
+   "EKSEKUSI": {
+    "n": 48,
+    "hit_1pct": 0.479
+   },
+   "TUNGGU": {
+    "n": 25,
+    "hit_1pct": 0.48
+   },
+   "LEWATI": {
+    "n": 251,
+    "hit_1pct": 0.283
+   }
+  },
+  "calibration_trend": [
+   {
+    "date": "2026-07-13",
+    "n": 61,
+    "predicted": 0.281,
+    "realized": 0.377,
+    "ratio": 1.34
+   },
+   {
+    "date": "2026-07-14",
+    "n": 69,
+    "predicted": 0.287,
+    "realized": 0.333,
+    "ratio": 1.16
+   },
+   {
+    "date": "2026-07-15",
+    "n": 64,
+    "predicted": 0.287,
+    "realized": 0.344,
+    "ratio": 1.2
+   },
+   {
+    "date": "2026-07-16",
+    "n": 86,
+    "predicted": 0.276,
+    "realized": 0.209,
+    "ratio": 0.76
+   }
+  ],
+  "note": "Forward = out-of-sample: the probability shown at fire time vs whether the stock actually rose >=1% next day. Calibration ratio realized/predicted -> 1.00 means the shown probability IS the truth. Paper research, not advice."
+ },
+ "upgrades": {
+  "ihsg_champion": {
+   "factor": "bab",
+   "top_n": "10",
+   "weight": "ew",
+   "target_vol": 0.18,
+   "regime": "True",
+   "oos_calmar": null,
+   "dsr": 0.815,
+   "dsr_significant": false,
+   "pbo": 0.066,
+   "conviction": "low",
+   "held_runs": 66,
+   "total_runs": 160,
+   "note": "The IHSG cross-sectional factor the robustness engine keeps selecting. Low conviction + DSR-insignificant is HONEST: no IHSG factor has yet earned high conviction."
+  },
+  "hedge_fund_top10": {
+   "as_of": "2026-07-18",
+   "runs": 6,
+   "top": [
+    {
+     "rank": 1,
+     "strategy": "gtaa_ma10",
+     "ytd_pct": 10.53,
+     "survivability": 0.801,
+     "mc10k_pass": true
+    },
+    {
+     "rank": 2,
+     "strategy": "dual_momentum",
+     "ytd_pct": 16.2,
+     "survivability": 0.695,
+     "mc10k_pass": true
+    },
+    {
+     "rank": 3,
+     "strategy": "vol_target_trend",
+     "ytd_pct": 8.49,
+     "survivability": 0.755,
+     "mc10k_pass": true
+    },
+    {
+     "rank": 4,
+     "strategy": "buyhold_ew",
+     "ytd_pct": 11.11,
+     "survivability": 0.627,
+     "mc10k_pass": true
+    },
+    {
+     "rank": 5,
+     "strategy": "breadth_rotation",
+     "ytd_pct": 11.0,
+     "survivability": 0.641,
+     "mc10k_pass": true
+    },
+    {
+     "rank": 6,
+     "strategy": "vol_target_ew",
+     "ytd_pct": 7.15,
+     "survivability": 0.71,
+     "mc10k_pass": true
+    },
+    {
+     "rank": 7,
+     "strategy": "sixty_forty",
+     "ytd_pct": 6.07,
+     "survivability": 0.711,
+     "mc10k_pass": true
+    },
+    {
+     "rank": 8,
+     "strategy": "tsmom_12m",
+     "ytd_pct": 7.59,
+     "survivability": 0.681,
+     "mc10k_pass": true
+    },
+    {
+     "rank": 9,
+     "strategy": "risk_parity",
+     "ytd_pct": 9.98,
+     "survivability": 0.625,
+     "mc10k_pass": true
+    },
+    {
+     "rank": 10,
+     "strategy": "min_vol",
+     "ytd_pct": 9.99,
+     "survivability": 0.607,
+     "mc10k_pass": true
+    }
+   ],
+   "persistent_leaders": [
+    {
+     "strategy": "gtaa_ma10",
+     "top3_runs": 6,
+     "of_runs": 6
+    },
+    {
+     "strategy": "dual_momentum",
+     "top3_runs": 6,
+     "of_runs": 6
+    },
+    {
+     "strategy": "vol_target_trend",
+     "top3_runs": 6,
+     "of_runs": 6
+    }
+   ]
+  },
+  "pattern_gate": {
+   "as_of": "2026-07-17",
+   "candidates": [
+    "consecutive_up3",
+    "near_52w_high",
+    "pullback_uptrend"
+   ],
+   "n_tested": 7,
+   "rejected_losers": [
+    "gap_continuation",
+    "near_20d_high",
+    "oversold_bounce"
+   ]
+  }
+ },
+ "cadence": {
+  "ihsg_factor": {
+   "last_run": "2026-07-17",
+   "distinct_days": 20
+  },
+  "hedge_fund": {
+   "last_run": "2026-07-18",
+   "distinct_days": 6
+  },
+  "pattern_accuracy": {
+   "last_run": "2026-07-17",
+   "distinct_days": 5
+  }
+ },
+ "disclaimer": "Research / backtest / paper simulation only \u2014 not investment advice. Every number is read from the loop's own forward ledgers; nothing here is projected."
+}
