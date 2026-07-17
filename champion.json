@@ -17,8 +17,8 @@
    "ITMG",
    "MTEL",
    "MYOR",
-   "BYAN",
    "BJBR",
+   "BYAN",
    "BNGA",
    "INDF",
    "BJTM"
@@ -35,8 +35,8 @@
    "ITMG",
    "MTEL",
    "MYOR",
-   "BYAN",
    "BJBR",
+   "BYAN",
    "BNGA",
    "INDF"
   ],
@@ -46,8 +46,8 @@
    "ITMG": 0.15,
    "MTEL": 0.15,
    "MYOR": 0.34,
-   "BYAN": 0.35,
    "BJBR": 0.35,
+   "BYAN": 0.35,
    "BNGA": 0.36,
    "INDF": 0.36,
    "BJTM": 0.37
@@ -60,13 +60,13 @@
    "oos_cagr": 0.1442,
    "oos_calmar": 1.515,
    "dsr": 1.0,
-   "pbo": 0.066,
+   "pbo": 0.065,
    "n_trials": 96,
    "conviction": "low"
   }
  },
  "ledger": {
-  "rows": 160,
+  "rows": 162,
   "latest": {
    "date": "2026-07-17",
    "best_factor": "bab",
@@ -80,33 +80,13 @@
    "oos_calmar": "",
    "dsr": "0.815",
    "dsr_sig": "False",
-   "pbo": "0.066",
+   "pbo": "0.065",
    "n_trials": "96",
-   "total_runs": "160",
+   "total_runs": "162",
    "conviction": "low"
   },
   "forward_status": "accruing",
   "recent": [
-   {
-    "date": "2026-07-16",
-    "run": 149,
-    "factor": "bab",
-    "oos_cagr": 0.0,
-    "oos_calmar": 0.0,
-    "dsr_sig": false,
-    "n_trials": 96,
-    "conviction": "low"
-   },
-   {
-    "date": "2026-07-16",
-    "run": 150,
-    "factor": "bab",
-    "oos_cagr": 0.0,
-    "oos_calmar": 0.0,
-    "dsr_sig": false,
-    "n_trials": 96,
-    "conviction": "low"
-   },
    {
     "date": "2026-07-16",
     "run": 151,
@@ -200,6 +180,26 @@
    {
     "date": "2026-07-17",
     "run": 160,
+    "factor": "bab",
+    "oos_cagr": 0.0,
+    "oos_calmar": 0.0,
+    "dsr_sig": false,
+    "n_trials": 96,
+    "conviction": "low"
+   },
+   {
+    "date": "2026-07-17",
+    "run": 161,
+    "factor": "bab",
+    "oos_cagr": 0.0,
+    "oos_calmar": 0.0,
+    "dsr_sig": false,
+    "n_trials": 96,
+    "conviction": "low"
+   },
+   {
+    "date": "2026-07-17",
+    "run": 162,
     "factor": "bab",
     "oos_cagr": 0.0,
     "oos_calmar": 0.0,
