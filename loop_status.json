@@ -67,10 +67,10 @@
    "oos_calmar": null,
    "dsr": 0.815,
    "dsr_significant": false,
-   "pbo": 0.065,
+   "pbo": 0.066,
    "conviction": "low",
-   "held_runs": 71,
-   "total_runs": 165,
+   "held_runs": 72,
+   "total_runs": 166,
    "note": "The IHSG cross-sectional factor the robustness engine keeps selecting. Low conviction + DSR-insignificant is HONEST: no IHSG factor has yet earned high conviction."
   },
   "hedge_fund_top10": {
