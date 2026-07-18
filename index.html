@@ -1,28 +1,135 @@
-<!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow">
-<title>Nusantara Capital — sign in</title>
-<meta http-equiv="refresh" content="0; url=https://nusantaracapital.vercel.app/app/fund">
-<style>
-:root{{color-scheme:dark}}
-html,body{{height:100%}}
-body{{margin:0;display:flex;align-items:center;justify-content:center;
-background:#0a0e13;color:#e6edf3;
-font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,sans-serif}}
-.card{{max-width:420px;padding:0 28px;text-align:center}}
-.brand{{font:600 22px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.06em;color:#22b083}}
-.sub{{margin:.6rem 0 1.4rem;color:#7d8b99;font-size:13px}}
-a.btn{{display:inline-block;padding:.7rem 1.4rem;border-radius:.55rem;background:#22b083;color:#06231b;
-font-weight:600;text-decoration:none}}
-a.btn:hover{{filter:brightness(1.08)}}
-.foot{{margin-top:1.6rem;font-size:11px;color:#4b5563}}
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nusantara Capital — institutional IHSG research</title><style>
+:root{--bg:#0a0e13;--panel:#11171f;--line:#1d2630;--ink:#e6edf3;--muted:#7d8b99;
+--alpha:#2dd4a7;--dd:#f0668a;--gold:#d8a24a;--mono:ui-monospace,SFMono-Regular,Menlo,monospace}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,sans-serif}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px 80px}
+a{color:var(--alpha);text-decoration:none}a:hover{text-decoration:underline}
+.top{position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px 20px;
+padding:13px 22px;margin:0 -22px;border-bottom:1px solid var(--line);background:rgba(10,14,19,.86);backdrop-filter:saturate(150%) blur(11px);-webkit-backdrop-filter:saturate(150%) blur(11px)}
+.nav{display:flex;gap:20px;font:11px var(--mono);letter-spacing:.05em;text-transform:uppercase}
+.nav a{color:var(--muted)}.nav a:hover{color:var(--ink);text-decoration:none}
+@media(max-width:680px){.nav{display:none}}
+.brand{font:600 21px var(--mono);letter-spacing:.06em;color:var(--alpha)}
+.brand b{color:var(--ink);font-weight:600}
+.live{display:flex;align-items:center;gap:9px;flex-wrap:wrap;font:11px var(--mono);color:var(--muted);letter-spacing:.04em}
+.clk{color:var(--ink)}
+.mkt{font:10px var(--mono);padding:2px 8px;border-radius:6px;letter-spacing:.04em}
+.mkt.green{color:var(--alpha);border:1px solid #1c3a32;background:#0e1f1a}
+.mkt.amber{color:var(--gold);border:1px solid #2a2114;background:#191307}
+.mkt.red{color:var(--muted);border:1px solid var(--line)}
+.buy{color:var(--alpha);font-weight:600}.hold{color:var(--muted)}.sell{color:var(--dd)}
+.numen-grid{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(155px,1fr))}
+.ncard{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:13px 15px;display:block}
+.ncard:hover{border-color:var(--alpha);text-decoration:none}
+.nt{font:600 13px var(--mono);color:var(--ink)}.nd{font-size:11.5px;color:var(--muted);margin-top:3px;line-height:1.4}
+.dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--alpha);margin-right:6px;
+box-shadow:0 0 0 0 rgba(45,212,167,.6);animation:p 2.4s infinite}
+@keyframes p{0%{box-shadow:0 0 0 0 rgba(45,212,167,.5)}70%{box-shadow:0 0 0 7px rgba(45,212,167,0)}100%{box-shadow:0 0 0 0 rgba(45,212,167,0)}}
+.thesis{color:var(--muted);font-size:14px;max-width:760px;margin:20px 0 30px}
+.thesis b{color:var(--ink);font-weight:500}
+.grid{display:grid;gap:14px}@media(min-width:720px){.cols-4{grid-template-columns:repeat(4,1fr)}.cols-2{grid-template-columns:1.6fr 1fr}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px}
+.k{font:11px var(--mono);color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.v{font:600 30px var(--mono);margin-top:6px;letter-spacing:-.01em}
+.v.dd{color:var(--dd)}.v.up{color:var(--alpha)}.sub{font:11px var(--mono);color:var(--muted);margin-top:3px}
+h2{font:600 13px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);
+margin:38px 0 14px;border-bottom:1px solid var(--line);padding-bottom:8px;scroll-margin-top:74px}
+.champ{display:flex;align-items:center;gap:14px;margin:30px 0 8px;scroll-margin-top:74px}
+.tag{font:11px var(--mono);letter-spacing:.05em;border:1px solid var(--gold);color:var(--gold);
+border-radius:999px;padding:4px 11px}
+.tag.med{border-color:var(--muted);color:var(--muted)}
+.board div{display:flex;gap:12px;padding:9px 0;border-bottom:1px solid var(--line);font-size:13.5px}
+.board .lens{font:11px var(--mono);color:var(--muted);min-width:104px;text-transform:uppercase;letter-spacing:.04em;padding-top:2px}
+table{width:100%;border-collapse:collapse;font:12.5px var(--mono)}
+th{font-weight:500;color:var(--muted);text-align:right;padding:8px 10px;border-bottom:1px solid var(--line);font-size:11px;letter-spacing:.04em}
+th:first-child,td:first-child{text-align:left}td{padding:7px 10px;border-bottom:1px solid var(--line)}
+.pass{color:var(--alpha)}.fail{color:var(--muted)}
+.care{background:#160f12;border:1px solid #2a1a20;border-radius:12px;padding:16px 18px;color:#caa;font-size:13px;margin-top:14px}
+.care b{color:#e8b;font-weight:600}
+.foot{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:12.5px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+svg text{font:10px var(--mono);fill:var(--muted)}
 </style></head>
-<body><div class="card">
-<div class="brand">Nusantara Capital</div>
-<div class="sub">This dashboard is private. You'll be asked to sign in.</div>
-<a class="btn" href="https://nusantaracapital.vercel.app/app/fund">Sign in to continue &rarr;</a>
-<div class="foot">Redirecting to the secure app… · research / paper only</div>
+<body><div class="wrap">
+<header class="top"><div class="brand">NUSANTARA <b>CAPITAL</b></div>
+<nav class="nav"><a href="#signal">Signal</a><a href="#record">Track record</a><a href="#verdict">Verdict</a><a href="#numen">Desk</a></nav>
+<div class="live"><span id="mkt" class="mkt red">IDX · —</span><span id="clock" class="clk">--:--:-- WIB</span></div></header>
+
+<p class="thesis">Nusantara Capital is an <b>institutional quant research loop for Indonesian equities only</b> — the discipline of
+Renaissance, Citadel, Norges and the sovereign funds (factor breadth, vol-managed sizing, ruthless
+overfit control, survival before return), pointed at the IHSG. Objective: <b>survivability and a
+consistent higher CAGR with lower drawdown</b>. Every claim below is the loop's own measured output,
+gated by Deflated-Sharpe + PBO + held-out OOS, and proven forward on an append-only ledger.
+<b>Research / paper only — never a live order, not investment advice.</b></p>
+
+<div class="grid cols-4">
+<div class="card"><div class="k">Champion CAGR</div><div class="v up">38%</div><div class="sub">in-sample, survivorship-caveated</div></div>
+<div class="card"><div class="k">Max Drawdown</div><div class="v dd">-10%</div><div class="sub">vol-managed, no leverage</div></div>
+<div class="card"><div class="k">Calmar (OOS)</div><div class="v up">1.515</div><div class="sub">held-out 2022+</div></div>
+<div class="card"><div class="k">Deflated Sharpe</div><div class="v ">1.0</div><div class="sub">vs 96 configs · PBO 0.065</div></div>
 </div>
-<script>location.replace('https://nusantaracapital.vercel.app/app/fund');</script>
+
+<h2 id="signal">Operating signal — today's paper portfolio</h2>
+<div class="card"><div class="sub" style="margin-bottom:11px">positions as of <b style="color:var(--ink)">2026-07-17</b>
+· next monthly rebalance <b style="color:var(--ink)">2026-08-01</b> · BAB · equal-weight · vol-targeted &le;1x · no leverage</div>
+<table><tr><th>ticker</th><th>action</th><th>beta</th></tr><tr><td>SILO.JK</td><td><span class=hold>HOLD</span></td><td>-0.16</td></tr><tr><td>WIKA.JK</td><td><span class=hold>HOLD</span></td><td>0.0</td></tr><tr><td>ITMG.JK</td><td><span class=hold>HOLD</span></td><td>0.15</td></tr><tr><td>MTEL.JK</td><td><span class=hold>HOLD</span></td><td>0.15</td></tr><tr><td>MYOR.JK</td><td><span class=hold>HOLD</span></td><td>0.35</td></tr><tr><td>BJBR.JK</td><td><span class=hold>HOLD</span></td><td>0.35</td></tr><tr><td>BYAN.JK</td><td><span class=hold>HOLD</span></td><td>0.36</td></tr><tr><td>INDF.JK</td><td><span class=hold>HOLD</span></td><td>0.36</td></tr><tr><td>BNGA.JK</td><td><span class=hold>HOLD</span></td><td>0.36</td></tr><tr><td>BJTM.JK</td><td><span class=buy>BUY</span></td><td>0.37</td></tr></table><div class="sub" style="margin-top:9px">SELL (exited last rebalance): <span class="sell">HEAL.JK</span></div>
+<div class="sub" style="margin-top:11px">A monthly low-beta defensive basket — changes occur at rebalance, not daily.
+<b style="color:var(--ink)">Paper / research signal you execute yourself</b> in your broker; not investment advice.
+For the <b style="color:var(--ink)">daily tactical layer</b> (foreign-flow accumulation, bandar, momentum) use the daily desk below.</div></div>
+
+<div class="champ"><h2 style="margin:0;border:0">Current champion</h2>
+<span class="tag">BAB · top-10 · volTgt 18% · regime</span>
+<span class="tag med">conviction: low</span></div>
+<div class="card"><svg viewBox="0 0 1040 300" width="100%" preserveAspectRatio="xMidYMid meet">
+  <polyline points="34.0,198.4 45.9,197.8 57.7,200.2 69.6,197.0 81.4,201.1 93.3,207.1 105.1,220.0 117.0,217.3 128.8,216.8 140.7,214.5 152.5,211.1 164.4,209.9 176.2,215.1 188.1,211.4 200.0,205.1 211.8,200.6 223.7,202.0 235.5,197.6 247.4,200.6 259.2,200.4 271.1,201.0 282.9,200.6 294.8,199.6 306.6,198.6 318.5,197.1 330.3,193.8 342.2,194.4 354.0,193.9 365.9,193.4 377.8,190.7 389.6,188.8 401.5,187.3 413.3,188.1 425.2,190.4 437.0,190.0 448.9,187.8 460.7,189.1 472.6,188.6 484.4,188.7 496.3,191.1 508.1,191.2 520.0,191.1 531.9,191.5 543.7,190.4 555.6,193.3 567.4,193.0 579.3,190.2 591.1,190.0 603.0,190.2 614.8,192.1 626.7,188.7 638.5,186.9 650.4,187.5 662.2,186.4 674.1,186.7 686.0,187.2 697.8,189.8 709.7,188.9 721.5,187.0 733.4,183.1 745.2,184.4 757.1,184.0 768.9,188.4 780.8,188.7 792.6,188.5 804.5,197.3 816.3,194.6 828.2,191.9 840.0,187.8 851.9,190.3 863.8,184.8 875.6,181.7 887.5,179.6 899.3,178.7 911.2,175.8 923.0,174.7 934.9,177.3 946.7,178.1 958.6,189.1 970.4,190.0 982.3,198.9 994.1,204.7 1006.0,198.4" fill="none" stroke="var(--muted)" stroke-width="1.4" opacity=".7"/>
+  <polyline points="34.0,175.4 45.9,173.5 57.7,166.5 69.6,170.8 81.4,164.8 93.3,163.9 105.1,164.8 117.0,163.5 128.8,162.8 140.7,162.9 152.5,158.6 164.4,156.0 176.2,154.7 188.1,150.6 200.0,150.4 211.8,148.0 223.7,133.6 235.5,129.2 247.4,125.9 259.2,124.9 271.1,124.9 282.9,123.6 294.8,120.1 306.6,112.0 318.5,110.1 330.3,106.6 342.2,85.9 354.0,85.6 365.9,84.3 377.8,83.5 389.6,84.0 401.5,80.4 413.3,79.1 425.2,79.0 437.0,79.4 448.9,75.1 460.7,75.1 472.6,75.1 484.4,75.2 496.3,71.6 508.1,64.5 520.0,64.4 531.9,66.1 543.7,64.9 555.6,67.1 567.4,71.2 579.3,68.2 591.1,67.9 603.0,61.3 614.8,60.7 626.7,64.6 638.5,64.4 650.4,53.9 662.2,52.4 674.1,53.6 686.0,52.7 697.8,52.3 709.7,52.6 721.5,52.3 733.4,48.4 745.2,47.1 757.1,44.3 768.9,43.6 780.8,42.9 792.6,39.9 804.5,34.0 816.3,36.3 828.2,40.2 840.0,35.8 851.9,34.7 863.8,36.3 875.6,36.3 887.5,36.5 899.3,36.4 911.2,35.5 923.0,37.0 934.9,36.1 946.7,38.1 958.6,37.6 970.4,37.5 982.3,38.4 994.1,41.0 1006.0,43.4" fill="none" stroke="var(--alpha)" stroke-width="2.2"/>
+  <line x1="1006.0" y1="34" x2="1006.0" y2="262.0" stroke="var(--gold)" stroke-dasharray="3 3" opacity=".8"/>
+  <text x="1002.0" y="44" text-anchor="end" fill="var(--gold)">forward proof begins</text>
+  <rect x="33.0" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="44.9" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="56.7" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="68.6" y="262.0" width="2.2" height="14.1" fill="var(--dd)" opacity=".5"/><rect x="80.4" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="92.3" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="104.1" y="262.0" width="2.2" height="2.9" fill="var(--dd)" opacity=".5"/><rect x="116.0" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="127.8" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="139.7" y="262.0" width="2.2" height="0.5" fill="var(--dd)" opacity=".5"/><rect x="151.5" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="163.4" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="175.2" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="187.1" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="199.0" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="210.8" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="222.7" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="234.5" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="246.4" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="258.2" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="270.1" y="262.0" width="2.2" height="0.1" fill="var(--dd)" opacity=".5"/><rect x="281.9" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="293.8" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="305.6" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="317.5" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="329.3" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="341.2" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="353.0" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="364.9" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="376.8" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="388.6" y="262.0" width="2.2" height="1.8" fill="var(--dd)" opacity=".5"/><rect x="400.5" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="412.3" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="424.2" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="436.0" y="262.0" width="2.2" height="1.6" fill="var(--dd)" opacity=".5"/><rect x="447.9" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="459.7" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="471.6" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="483.4" y="262.0" width="2.2" height="0.4" fill="var(--dd)" opacity=".5"/><rect x="495.3" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="507.1" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="519.0" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="530.9" y="262.0" width="2.2" height="6.0" fill="var(--dd)" opacity=".5"/><rect x="542.7" y="262.0" width="2.2" height="1.7" fill="var(--dd)" opacity=".5"/><rect x="554.6" y="262.0" width="2.2" height="9.1" fill="var(--dd)" opacity=".5"/><rect x="566.4" y="262.0" width="2.2" height="22.3" fill="var(--dd)" opacity=".5"/><rect x="578.3" y="262.0" width="2.2" height="12.9" fill="var(--dd)" opacity=".5"/><rect x="590.1" y="262.0" width="2.2" height="11.7" fill="var(--dd)" opacity=".5"/><rect x="602.0" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="613.8" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="625.7" y="262.0" width="2.2" height="13.2" fill="var(--dd)" opacity=".5"/><rect x="637.5" y="262.0" width="2.2" height="12.2" fill="var(--dd)" opacity=".5"/><rect x="649.4" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="661.2" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="673.1" y="262.0" width="2.2" height="3.9" fill="var(--dd)" opacity=".5"/><rect x="685.0" y="262.0" width="2.2" height="0.9" fill="var(--dd)" opacity=".5"/><rect x="696.8" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="708.7" y="262.0" width="2.2" height="0.9" fill="var(--dd)" opacity=".5"/><rect x="720.5" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="732.4" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="744.2" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="756.1" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="767.9" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="779.8" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="791.6" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="803.5" y="262.0" width="2.2" height="0.0" fill="var(--dd)" opacity=".5"/><rect x="815.3" y="262.0" width="2.2" height="7.9" fill="var(--dd)" opacity=".5"/><rect x="827.2" y="262.0" width="2.2" height="20.4" fill="var(--dd)" opacity=".5"/><rect x="839.0" y="262.0" width="2.2" height="5.9" fill="var(--dd)" opacity=".5"/><rect x="850.9" y="262.0" width="2.2" height="2.3" fill="var(--dd)" opacity=".5"/><rect x="862.8" y="262.0" width="2.2" height="7.8" fill="var(--dd)" opacity=".5"/><rect x="874.6" y="262.0" width="2.2" height="7.9" fill="var(--dd)" opacity=".5"/><rect x="886.5" y="262.0" width="2.2" height="8.4" fill="var(--dd)" opacity=".5"/><rect x="898.3" y="262.0" width="2.2" height="8.2" fill="var(--dd)" opacity=".5"/><rect x="910.2" y="262.0" width="2.2" height="5.1" fill="var(--dd)" opacity=".5"/><rect x="922.0" y="262.0" width="2.2" height="10.1" fill="var(--dd)" opacity=".5"/><rect x="933.9" y="262.0" width="2.2" height="7.0" fill="var(--dd)" opacity=".5"/><rect x="945.7" y="262.0" width="2.2" height="13.5" fill="var(--dd)" opacity=".5"/><rect x="957.6" y="262.0" width="2.2" height="12.1" fill="var(--dd)" opacity=".5"/><rect x="969.4" y="262.0" width="2.2" height="11.8" fill="var(--dd)" opacity=".5"/><rect x="981.3" y="262.0" width="2.2" height="14.6" fill="var(--dd)" opacity=".5"/><rect x="993.1" y="262.0" width="2.2" height="22.9" fill="var(--dd)" opacity=".5"/><rect x="1005.0" y="262.0" width="2.2" height="30.0" fill="var(--dd)" opacity=".5"/><text x="34.0" y="296" text-anchor="middle">2019</text><text x="188.1" y="296" text-anchor="middle">2020</text><text x="342.2" y="296" text-anchor="middle">2021</text><text x="496.3" y="296" text-anchor="middle">2022</text><text x="650.4" y="296" text-anchor="middle">2024</text><text x="804.5" y="296" text-anchor="middle">2025</text><text x="958.6" y="296" text-anchor="middle">2026</text>
+  <text x="34" y="22" fill="var(--alpha)">champion (log equity, backtest)</text>
+  <text x="254" y="22" fill="var(--muted)">IHSG</text>
+  <text x="34" y="258" fill="var(--dd)">drawdown</text>
+</svg></div>
+
+<h2 id="record">The proof — track record &amp; forward ledger</h2>
+<div class="card"><table>
+<tr><th>run</th><th>factor</th><th>OOS CAGR</th><th>OOS Calmar</th><th>DSR</th><th>conviction</th></tr>
+<tr><td>2026-07-18 · run 163</td><td>bab</td><td>—</td><td>—</td><td class='fail'>ns</td><td>low</td></tr><tr><td>2026-07-17 · run 162</td><td>bab</td><td>—</td><td>—</td><td class='fail'>ns</td><td>low</td></tr><tr><td>2026-07-17 · run 161</td><td>bab</td><td>—</td><td>—</td><td class='fail'>ns</td><td>low</td></tr><tr><td>2026-07-17 · run 160</td><td>bab</td><td>—</td><td>—</td><td class='fail'>ns</td><td>low</td></tr><tr><td>2026-07-17 · run 159</td><td>bab</td><td>—</td><td>—</td><td class='fail'>ns</td><td>low</td></tr><tr><td>2026-07-17 · run 158</td><td>bab</td><td>—</td><td>—</td><td class='fail'>ns</td><td>low</td></tr><tr><td>2026-07-17 · run 157</td><td>bab</td><td>—</td><td>—</td><td class='fail'>ns</td><td>low</td></tr><tr><td>2026-07-17 · run 156</td><td>bab</td><td>—</td><td>—</td><td class='fail'>ns</td><td>low</td></tr><tr><td>2026-07-17 · run 155</td><td>bab</td><td>—</td><td>—</td><td class='fail'>ns</td><td>low</td></tr><tr><td>2026-07-17 · run 154</td><td>bab</td><td>—</td><td>—</td><td class='fail'>ns</td><td>low</td></tr><tr><td>2026-07-16 · run 153</td><td>bab</td><td>—</td><td>—</td><td class='fail'>ns</td><td>low</td></tr><tr><td>2026-07-16 · run 152</td><td>bab</td><td>—</td><td>—</td><td class='fail'>ns</td><td>low</td></tr>
+</table><div class="sub" style="margin-top:10px">Append-only write-ahead ledger — the only clean forward test. Each loop run adds a row; the gold marker on the curve is where forward proof begins.</div></div>
+
+<h2 id="verdict">Verdict board (latest)</h2>
+<div class="card board"><div class="sub">board renders on the next run</div></div>
+
+<div class="care"><b>Honest by construction.</b> The headline CAGR is in-sample on today's liquid IDX
+names — there is no point-in-time constituent history, so <b>residual survivorship persists</b> and
+conviction is capped at <b>medium</b>. The robust IHSG edge is <b>defensive (betting-against-beta /
+low-vol), not momentum</b> (which is cost-killed locally). The named invalidation is the live ledger:
+if forward Calmar falls below 0.3, the edge was a backtest artifact. Not licensed as a Penasihat
+Investasi (OJK). Kinerja masa lalu tidak menjamin hasil di masa depan.</div>
+
+<h2 id="numen">Daily desk — live IHSG smart-money · one system</h2><div class="sub" style="margin:-4px 0 13px">The same cockpit. The fund above is the monthly core; these are the daily desk tools — live smart-money reads on the IDX, opening in the desk app.</div><div class="numen-grid"><a class="ncard" href="https://numen-web-gold.vercel.app/app/track-record"><div class="nt">Papan Skor</div><div class="nd">honest signal scorecard — wins and losses</div></a><a class="ncard" href="https://numen-web-gold.vercel.app/app/market-summary"><div class="nt">Ringkasan Pasar</div><div class="nd">5-method IHSG screener</div></a><a class="ncard" href="https://numen-web-gold.vercel.app/app/bandar-stalker"><div class="nt">Bandar Stalker</div><div class="nd">broker accumulation / smart-money</div></a><a class="ncard" href="https://numen-web-gold.vercel.app/app/influencers"><div class="nt">Finfluencer</div><div class="nd">accountability + zombie flags</div></a><a class="ncard" href="https://numen-web-gold.vercel.app/app/wealth"><div class="nt">Proyeksi</div><div class="nd">compounding cone (g = μ − σ²/2)</div></a></div>
+
+<div class="foot"><div>Nusantara Capital · personal SaaS · paper/research only — never a live order</div>
+<div><a href="https://numen-web-gold.vercel.app">open the desk →</a></div></div>
+</div>
+<script>
+function tick(){
+ var w=new Date(new Date().toLocaleString('en-US',{timeZone:'Asia/Jakarta'}));
+ var hh=w.getHours(),mm=w.getMinutes(),ss=w.getSeconds(),d=w.getDay(),mins=hh*60+mm,p=function(n){return String(n).padStart(2,'0')};
+ var s='CLOSED',c='red';
+ if(d===0||d===6){s='WEEKEND · CLOSED';c='red';}
+ else{var fri=d===5,s1=fri?660:690,s2=fri?840:810;
+  if(mins<525){s='PRE-MARKET';c='amber';}
+  else if(mins<540){s='PRE-OPENING';c='amber';}
+  else if(mins<s1){s='SESSION 1 · OPEN';c='green';}
+  else if(mins<s2){s='LUNCH BREAK';c='amber';}
+  else if(mins<960){s='SESSION 2 · OPEN';c='green';}
+  else {s='CLOSED';c='red';}}
+ document.getElementById('clock').textContent=p(hh)+':'+p(mm)+':'+p(ss)+' WIB';
+ var m=document.getElementById('mkt');m.textContent='IDX · '+s;m.className='mkt '+c;
+}
+setInterval(tick,1000);tick();
+</script>
 </body></html>

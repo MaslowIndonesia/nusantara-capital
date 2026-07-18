@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-18",
+ "generated": "2026-07-17",
  "title": "Nusantara Capital \u2014 loop upgrades & accuracy",
  "accuracy": {
   "overall_forward_hit_1pct": 0.327,
@@ -67,10 +67,10 @@
    "oos_calmar": null,
    "dsr": 0.815,
    "dsr_significant": false,
-   "pbo": 0.066,
+   "pbo": 0.065,
    "conviction": "low",
-   "held_runs": 69,
-   "total_runs": 163,
+   "held_runs": 67,
+   "total_runs": 161,
    "note": "The IHSG cross-sectional factor the robustness engine keeps selecting. Low conviction + DSR-insignificant is HONEST: no IHSG factor has yet earned high conviction."
   },
   "hedge_fund_top10": {
@@ -183,8 +183,8 @@
  },
  "cadence": {
   "ihsg_factor": {
-   "last_run": "2026-07-18",
-   "distinct_days": 21
+   "last_run": "2026-07-17",
+   "distinct_days": 20
   },
   "hedge_fund": {
    "last_run": "2026-07-18",
