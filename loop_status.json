@@ -67,10 +67,10 @@
    "oos_calmar": null,
    "dsr": 0.815,
    "dsr_significant": false,
-   "pbo": 0.066,
+   "pbo": 0.065,
    "conviction": "low",
-   "held_runs": 74,
-   "total_runs": 168,
+   "held_runs": 75,
+   "total_runs": 169,
    "note": "The IHSG cross-sectional factor the robustness engine keeps selecting. Low conviction + DSR-insignificant is HONEST: no IHSG factor has yet earned high conviction."
   },
   "hedge_fund_top10": {
@@ -198,15 +198,18 @@
  "perf": {
   "budget_s": 0.5,
   "seconds": {
-   "patterns": 0.075,
-   "hedgefund": 0.051,
-   "fund": 0.067,
-   "predictions": 0.065,
-   "backend_health": 0.138
+   "patterns": 0.21,
+   "hedgefund": 0.906,
+   "fund": 0.153,
+   "predictions": 0.153,
+   "backend_health": 0.538
   },
-  "breaches": [],
-  "worst_s": 0.138,
-  "within_budget": true,
+  "breaches": [
+   "hedgefund",
+   "backend_health"
+  ],
+  "worst_s": 0.906,
+  "within_budget": false,
   "note": "full-GET latency of every published data point, measured this run; client pages additionally paint instantly from the lswr snapshot cache"
  },
  "disclaimer": "Research / backtest / paper simulation only \u2014 not investment advice. Every number is read from the loop's own forward ledgers; nothing here is projected."
