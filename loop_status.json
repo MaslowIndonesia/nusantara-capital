@@ -69,8 +69,8 @@
    "dsr_significant": false,
    "pbo": 0.066,
    "conviction": "low",
-   "held_runs": 78,
-   "total_runs": 172,
+   "held_runs": 79,
+   "total_runs": 173,
    "note": "The IHSG cross-sectional factor the robustness engine keeps selecting. Low conviction + DSR-insignificant is HONEST: no IHSG factor has yet earned high conviction."
   },
   "hedge_fund_top10": {
@@ -101,7 +101,7 @@
     {
      "rank": 4,
      "strategy": "buyhold_ew",
-     "ytd_pct": 10.08,
+     "ytd_pct": 10.05,
      "survivability": 0.627,
      "mc10k_pass": true
     },
@@ -115,28 +115,28 @@
     {
      "rank": 6,
      "strategy": "vol_target_ew",
-     "ytd_pct": 6.36,
+     "ytd_pct": 6.34,
      "survivability": 0.71,
      "mc10k_pass": true
     },
     {
      "rank": 7,
      "strategy": "sixty_forty",
-     "ytd_pct": 5.34,
+     "ytd_pct": 5.27,
      "survivability": 0.711,
      "mc10k_pass": true
     },
     {
      "rank": 8,
      "strategy": "tsmom_12m",
-     "ytd_pct": 6.95,
+     "ytd_pct": 6.93,
      "survivability": 0.681,
      "mc10k_pass": true
     },
     {
      "rank": 9,
      "strategy": "risk_parity",
-     "ytd_pct": 9.35,
+     "ytd_pct": 9.34,
      "survivability": 0.625,
      "mc10k_pass": true
     },
@@ -198,15 +198,17 @@
  "perf": {
   "budget_s": 0.5,
   "seconds": {
-   "patterns": 0.19,
-   "hedgefund": 0.159,
-   "fund": 0.178,
-   "predictions": 0.149,
-   "backend_health": 0.459
+   "patterns": 0.559,
+   "hedgefund": 0.397,
+   "fund": 0.349,
+   "predictions": 0.358,
+   "backend_health": 0.404
   },
-  "breaches": [],
-  "worst_s": 0.459,
-  "within_budget": true,
+  "breaches": [
+   "patterns"
+  ],
+  "worst_s": 0.559,
+  "within_budget": false,
   "note": "full-GET latency of every published data point, measured this run; client pages additionally paint instantly from the lswr snapshot cache"
  },
  "disclaimer": "Research / backtest / paper simulation only \u2014 not investment advice. Every number is read from the loop's own forward ledgers; nothing here is projected."
