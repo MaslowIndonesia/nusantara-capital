@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-18",
+ "generated": "2026-07-19",
  "title": "Nusantara Capital \u2014 loop upgrades & accuracy",
  "accuracy": {
   "overall_forward_hit_1pct": 0.327,
@@ -67,83 +67,83 @@
    "oos_calmar": null,
    "dsr": 0.815,
    "dsr_significant": false,
-   "pbo": 0.065,
+   "pbo": 0.066,
    "conviction": "low",
-   "held_runs": 76,
-   "total_runs": 170,
+   "held_runs": 78,
+   "total_runs": 172,
    "note": "The IHSG cross-sectional factor the robustness engine keeps selecting. Low conviction + DSR-insignificant is HONEST: no IHSG factor has yet earned high conviction."
   },
   "hedge_fund_top10": {
-   "as_of": "2026-07-18",
-   "runs": 6,
+   "as_of": "2026-07-19",
+   "runs": 7,
    "top": [
     {
      "rank": 1,
      "strategy": "gtaa_ma10",
-     "ytd_pct": 10.53,
+     "ytd_pct": 9.53,
      "survivability": 0.801,
      "mc10k_pass": true
     },
     {
      "rank": 2,
      "strategy": "dual_momentum",
-     "ytd_pct": 16.2,
+     "ytd_pct": 13.59,
      "survivability": 0.695,
      "mc10k_pass": true
     },
     {
      "rank": 3,
      "strategy": "vol_target_trend",
-     "ytd_pct": 8.49,
+     "ytd_pct": 7.56,
      "survivability": 0.755,
      "mc10k_pass": true
     },
     {
      "rank": 4,
      "strategy": "buyhold_ew",
-     "ytd_pct": 11.11,
+     "ytd_pct": 10.08,
      "survivability": 0.627,
      "mc10k_pass": true
     },
     {
      "rank": 5,
      "strategy": "breadth_rotation",
-     "ytd_pct": 11.0,
+     "ytd_pct": 9.79,
      "survivability": 0.641,
      "mc10k_pass": true
     },
     {
      "rank": 6,
      "strategy": "vol_target_ew",
-     "ytd_pct": 7.15,
+     "ytd_pct": 6.36,
      "survivability": 0.71,
      "mc10k_pass": true
     },
     {
      "rank": 7,
      "strategy": "sixty_forty",
-     "ytd_pct": 6.07,
+     "ytd_pct": 5.34,
      "survivability": 0.711,
      "mc10k_pass": true
     },
     {
      "rank": 8,
      "strategy": "tsmom_12m",
-     "ytd_pct": 7.59,
+     "ytd_pct": 6.95,
      "survivability": 0.681,
      "mc10k_pass": true
     },
     {
      "rank": 9,
      "strategy": "risk_parity",
-     "ytd_pct": 9.98,
+     "ytd_pct": 9.35,
      "survivability": 0.625,
      "mc10k_pass": true
     },
     {
      "rank": 10,
      "strategy": "min_vol",
-     "ytd_pct": 9.99,
+     "ytd_pct": 9.49,
      "survivability": 0.607,
      "mc10k_pass": true
     }
@@ -151,18 +151,18 @@
    "persistent_leaders": [
     {
      "strategy": "gtaa_ma10",
-     "top3_runs": 6,
-     "of_runs": 6
+     "top3_runs": 7,
+     "of_runs": 7
     },
     {
      "strategy": "dual_momentum",
-     "top3_runs": 6,
-     "of_runs": 6
+     "top3_runs": 7,
+     "of_runs": 7
     },
     {
      "strategy": "vol_target_trend",
-     "top3_runs": 6,
-     "of_runs": 6
+     "top3_runs": 7,
+     "of_runs": 7
     }
    ]
   },
@@ -183,12 +183,12 @@
  },
  "cadence": {
   "ihsg_factor": {
-   "last_run": "2026-07-18",
-   "distinct_days": 21
+   "last_run": "2026-07-19",
+   "distinct_days": 22
   },
   "hedge_fund": {
-   "last_run": "2026-07-18",
-   "distinct_days": 6
+   "last_run": "2026-07-19",
+   "distinct_days": 7
   },
   "pattern_accuracy": {
    "last_run": "2026-07-17",
@@ -198,14 +198,14 @@
  "perf": {
   "budget_s": 0.5,
   "seconds": {
-   "patterns": 0.189,
-   "hedgefund": 0.181,
+   "patterns": 0.19,
+   "hedgefund": 0.159,
    "fund": 0.178,
-   "predictions": 0.173,
-   "backend_health": 0.326
+   "predictions": 0.149,
+   "backend_health": 0.459
   },
   "breaches": [],
-  "worst_s": 0.326,
+  "worst_s": 0.459,
   "within_budget": true,
   "note": "full-GET latency of every published data point, measured this run; client pages additionally paint instantly from the lswr snapshot cache"
  },
