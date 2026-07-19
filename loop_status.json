@@ -198,15 +198,17 @@
  "perf": {
   "budget_s": 0.5,
   "seconds": {
-   "patterns": 0.173,
-   "hedgefund": 0.129,
-   "fund": 0.123,
-   "predictions": 0.129,
-   "backend_health": 0.129
+   "patterns": 0.358,
+   "hedgefund": 0.34,
+   "fund": 0.336,
+   "predictions": 0.35,
+   "backend_health": 0.654
   },
-  "breaches": [],
-  "worst_s": 0.173,
-  "within_budget": true,
+  "breaches": [
+   "backend_health"
+  ],
+  "worst_s": 0.654,
+  "within_budget": false,
   "note": "full-GET latency of every published data point, measured this run; client pages additionally paint instantly from the lswr snapshot cache"
  },
  "disclaimer": "Research / backtest / paper simulation only \u2014 not investment advice. Every number is read from the loop's own forward ledgers; nothing here is projected."
