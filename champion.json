@@ -19,8 +19,8 @@
    "MYOR",
    "BJBR",
    "BYAN",
-   "BNGA",
    "INDF",
+   "BNGA",
    "BJTM"
   ],
   "buy": [
@@ -37,8 +37,8 @@
    "MYOR",
    "BJBR",
    "BYAN",
-   "BNGA",
-   "INDF"
+   "INDF",
+   "BNGA"
   ],
   "betas": {
    "SILO": -0.16,
@@ -48,8 +48,8 @@
    "MYOR": 0.35,
    "BJBR": 0.35,
    "BYAN": 0.36,
-   "BNGA": 0.36,
    "INDF": 0.36,
+   "BNGA": 0.36,
    "BJTM": 0.37
   },
   "next_rebalance": "2026-08-01",
@@ -66,7 +66,7 @@
   }
  },
  "ledger": {
-  "rows": 181,
+  "rows": 183,
   "latest": {
    "date": "2026-07-20",
    "best_factor": "bab",
@@ -82,31 +82,11 @@
    "dsr_sig": "False",
    "pbo": "0.065",
    "n_trials": "96",
-   "total_runs": "181",
+   "total_runs": "183",
    "conviction": "low"
   },
   "forward_status": "accruing",
   "recent": [
-   {
-    "date": "2026-07-18",
-    "run": 170,
-    "factor": "bab",
-    "oos_cagr": 0.0,
-    "oos_calmar": 0.0,
-    "dsr_sig": false,
-    "n_trials": 96,
-    "conviction": "low"
-   },
-   {
-    "date": "2026-07-18",
-    "run": 171,
-    "factor": "bab",
-    "oos_cagr": 0.0,
-    "oos_calmar": 0.0,
-    "dsr_sig": false,
-    "n_trials": 96,
-    "conviction": "low"
-   },
    {
     "date": "2026-07-19",
     "run": 172,
@@ -200,6 +180,26 @@
    {
     "date": "2026-07-20",
     "run": 181,
+    "factor": "bab",
+    "oos_cagr": 0.0,
+    "oos_calmar": 0.0,
+    "dsr_sig": false,
+    "n_trials": 96,
+    "conviction": "low"
+   },
+   {
+    "date": "2026-07-20",
+    "run": 182,
+    "factor": "bab",
+    "oos_cagr": 0.0,
+    "oos_calmar": 0.0,
+    "dsr_sig": false,
+    "n_trials": 96,
+    "conviction": "low"
+   },
+   {
+    "date": "2026-07-20",
+    "run": 183,
     "factor": "bab",
     "oos_cagr": 0.0,
     "oos_calmar": 0.0,
@@ -463,7 +463,7 @@
    1.0993,
    0.9682,
    0.8917,
-   0.9826
+   0.9758
   ],
   "drawdown": [
    0.0,
