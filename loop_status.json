@@ -65,12 +65,12 @@
    "target_vol": 0.18,
    "regime": "True",
    "oos_calmar": null,
-   "dsr": 0.815,
+   "dsr": 0.822,
    "dsr_significant": false,
    "pbo": 0.065,
    "conviction": "low",
-   "held_runs": 83,
-   "total_runs": 177,
+   "held_runs": 86,
+   "total_runs": 180,
    "note": "The IHSG cross-sectional factor the robustness engine keeps selecting. Low conviction + DSR-insignificant is HONEST: no IHSG factor has yet earned high conviction."
   },
   "hedge_fund_top10": {
@@ -101,7 +101,7 @@
     {
      "rank": 4,
      "strategy": "buyhold_ew",
-     "ytd_pct": 10.08,
+     "ytd_pct": 10.12,
      "survivability": 0.627,
      "mc10k_pass": true
     },
@@ -115,35 +115,35 @@
     {
      "rank": 6,
      "strategy": "vol_target_ew",
-     "ytd_pct": 6.36,
+     "ytd_pct": 6.38,
      "survivability": 0.71,
      "mc10k_pass": true
     },
     {
      "rank": 7,
      "strategy": "sixty_forty",
-     "ytd_pct": 5.34,
+     "ytd_pct": 5.42,
      "survivability": 0.711,
      "mc10k_pass": true
     },
     {
      "rank": 8,
      "strategy": "tsmom_12m",
-     "ytd_pct": 6.95,
+     "ytd_pct": 6.97,
      "survivability": 0.681,
      "mc10k_pass": true
     },
     {
      "rank": 9,
      "strategy": "risk_parity",
-     "ytd_pct": 9.35,
+     "ytd_pct": 9.38,
      "survivability": 0.625,
      "mc10k_pass": true
     },
     {
      "rank": 10,
      "strategy": "min_vol",
-     "ytd_pct": 9.49,
+     "ytd_pct": 9.5,
      "survivability": 0.607,
      "mc10k_pass": true
     }
@@ -183,8 +183,8 @@
  },
  "cadence": {
   "ihsg_factor": {
-   "last_run": "2026-07-19",
-   "distinct_days": 22
+   "last_run": "2026-07-20",
+   "distinct_days": 23
   },
   "hedge_fund": {
    "last_run": "2026-07-20",
@@ -198,19 +198,15 @@
  "perf": {
   "budget_s": 0.5,
   "seconds": {
-   "patterns": 0.364,
-   "hedgefund": 0.452,
-   "fund": 0.525,
-   "predictions": 0.523,
-   "backend_health": 0.52
+   "patterns": 0.338,
+   "hedgefund": 0.163,
+   "fund": 0.163,
+   "predictions": 0.155,
+   "backend_health": 0.378
   },
-  "breaches": [
-   "fund",
-   "predictions",
-   "backend_health"
-  ],
-  "worst_s": 0.525,
-  "within_budget": false,
+  "breaches": [],
+  "worst_s": 0.378,
+  "within_budget": true,
   "note": "full-GET latency of every published data point, measured this run; client pages additionally paint instantly from the lswr snapshot cache"
  },
  "disclaimer": "Research / backtest / paper simulation only \u2014 not investment advice. Every number is read from the loop's own forward ledgers; nothing here is projected."
