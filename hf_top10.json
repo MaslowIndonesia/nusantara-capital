@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-19",
+ "generated": "2026-07-20",
  "as_of": "2026-07-17",
  "universe": "6 global futures markets (5 equity indices + gold), daily",
  "span": "2005-01-03\u21922026-07-17",
@@ -248,7 +248,7 @@
  ],
  "all_tested": 12,
  "learning": {
-  "n_runs": 7,
+  "n_runs": 8,
   "rank_stability": 0.0,
   "persistent_top3": [
    {
