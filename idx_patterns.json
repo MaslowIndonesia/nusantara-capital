@@ -14,19 +14,19 @@
  "patterns": [
   {
    "pattern": "consecutive_up3",
-   "n_signals": 44782,
+   "n_signals": 44788,
    "p_up": 0.401,
    "p_strong_1pct": 0.286,
-   "p_5pct": 0.0705,
-   "p_ara_15pct": 0.0112,
-   "mean_next_day": 0.00249,
+   "p_5pct": 0.0706,
+   "p_ara_15pct": 0.0113,
+   "mean_next_day": 0.00248,
    "lift_strong_vs_base": 1.21,
    "lift_ara_vs_base": 2.3,
    "perm_p_strong": 0.0,
    "perm_p_ara": 0.0,
    "mc10k": {
-    "cagr_p50": 0.8776,
-    "cagr_p5": 0.597,
+    "cagr_p50": 0.8781,
+    "cagr_p5": 0.5973,
     "maxdd_p50": -0.511,
     "calmar_p50": 1.72,
     "p_cagr_neg": 0.0,
@@ -50,9 +50,7 @@
     "BVIC",
     "BYAN",
     "CBDK",
-    "GGRM",
     "GJTL",
-    "HEXA",
     "HRUM",
     "IMAS",
     "INPC",
@@ -60,7 +58,6 @@
     "MSTI",
     "NCKL",
     "PNBN",
-    "PNLF",
     "SDRA",
     "SGRO",
     "SMGR",
@@ -81,7 +78,7 @@
   },
   {
    "pattern": "near_52w_high",
-   "n_signals": 88020,
+   "n_signals": 88017,
    "p_up": 0.349,
    "p_strong_1pct": 0.239,
    "p_5pct": 0.0555,
@@ -89,11 +86,11 @@
    "mean_next_day": 0.00191,
    "lift_strong_vs_base": 1.01,
    "lift_ara_vs_base": 1.7,
-   "perm_p_strong": 0.0293,
+   "perm_p_strong": 0.0265,
    "perm_p_ara": 0.0,
    "mc10k": {
-    "cagr_p50": 0.1866,
-    "cagr_p5": 0.0316,
+    "cagr_p50": 0.187,
+    "cagr_p5": 0.0319,
     "maxdd_p50": -0.726,
     "calmar_p50": 0.26,
     "p_cagr_neg": 0.023,
@@ -108,7 +105,6 @@
     "DMAS",
     "GGRM",
     "HATM",
-    "MAPI",
     "MLBI",
     "MPMX",
     "PANS",
@@ -126,21 +122,21 @@
   },
   {
    "pattern": "pullback_uptrend",
-   "n_signals": 96618,
+   "n_signals": 96601,
    "p_up": 0.402,
    "p_strong_1pct": 0.278,
    "p_5pct": 0.0475,
    "p_ara_15pct": 0.0039,
-   "mean_next_day": 0.00104,
+   "mean_next_day": 0.00103,
    "lift_strong_vs_base": 1.18,
    "lift_ara_vs_base": 0.8,
    "perm_p_strong": 0.0,
    "perm_p_ara": 1.0,
    "mc10k": {
-    "cagr_p50": 0.2923,
-    "cagr_p5": 0.1574,
-    "maxdd_p50": -0.519,
-    "calmar_p50": 0.57,
+    "cagr_p50": 0.2773,
+    "cagr_p5": 0.1466,
+    "maxdd_p50": -0.524,
+    "calmar_p50": 0.53,
     "p_cagr_neg": 0.0,
     "P_dd_worse_-20": 1.0,
     "mc_se": 0.0
@@ -153,7 +149,6 @@
     "ASGR",
     "AVIA",
     "BEST",
-    "CTRA",
     "DEWA",
     "DMAS",
     "DOID",
@@ -167,16 +162,12 @@
     "IPCC",
     "ISSP",
     "KBLI",
-    "KIJA",
     "LSIP",
     "MARK",
-    "MBSS",
     "MDIY",
     "MEDC",
     "MIKA",
     "MLPL",
-    "MNCN",
-    "POWR",
     "SIMP",
     "SOCI",
     "SSIA",
@@ -198,22 +189,22 @@
   },
   {
    "pattern": "gap_continuation",
-   "n_signals": 61615,
+   "n_signals": 61613,
    "p_up": 0.354,
    "p_strong_1pct": 0.297,
    "p_5pct": 0.1113,
    "p_ara_15pct": 0.022,
-   "mean_next_day": 0.00151,
+   "mean_next_day": 0.00149,
    "lift_strong_vs_base": 1.26,
    "lift_ara_vs_base": 4.4,
    "perm_p_strong": 0.0,
    "perm_p_ara": 0.0,
    "mc10k": {
-    "cagr_p50": -0.1404,
-    "cagr_p5": -0.303,
-    "maxdd_p50": -0.995,
-    "calmar_p50": -0.14,
-    "p_cagr_neg": 0.894,
+    "cagr_p50": -0.1497,
+    "cagr_p5": -0.3111,
+    "maxdd_p50": -0.996,
+    "calmar_p50": -0.15,
+    "p_cagr_neg": 0.907,
     "P_dd_worse_-20": 1.0,
     "mc_se": 0.0
    },
@@ -225,22 +216,22 @@
   },
   {
    "pattern": "near_20d_high",
-   "n_signals": 167417,
+   "n_signals": 167385,
    "p_up": 0.323,
    "p_strong_1pct": 0.223,
-   "p_5pct": 0.0544,
+   "p_5pct": 0.0543,
    "p_ara_15pct": 0.0082,
    "mean_next_day": 0.001,
    "lift_strong_vs_base": 0.95,
-   "lift_ara_vs_base": 1.6,
+   "lift_ara_vs_base": 1.7,
    "perm_p_strong": 1.0,
    "perm_p_ara": 0.0,
    "mc10k": {
-    "cagr_p50": -0.0592,
-    "cagr_p5": -0.154,
+    "cagr_p50": -0.0586,
+    "cagr_p5": -0.1537,
     "maxdd_p50": -0.926,
     "calmar_p50": -0.06,
-    "p_cagr_neg": 0.83,
+    "p_cagr_neg": 0.828,
     "P_dd_worse_-20": 1.0,
     "mc_se": 0.0
    },
@@ -252,19 +243,19 @@
   },
   {
    "pattern": "oversold_bounce",
-   "n_signals": 25665,
-   "p_up": 0.391,
+   "n_signals": 25668,
+   "p_up": 0.39,
    "p_strong_1pct": 0.281,
-   "p_5pct": 0.0557,
+   "p_5pct": 0.0559,
    "p_ara_15pct": 0.0049,
    "mean_next_day": 0.00059,
    "lift_strong_vs_base": 1.19,
    "lift_ara_vs_base": 1.0,
    "perm_p_strong": 0.0,
-   "perm_p_ara": 0.4977,
+   "perm_p_ara": 0.4982,
    "mc10k": {
     "cagr_p50": -0.0647,
-    "cagr_p5": -0.2025,
+    "cagr_p5": -0.2024,
     "maxdd_p50": -0.907,
     "calmar_p50": -0.07,
     "p_cagr_neg": 0.761,
@@ -279,19 +270,19 @@
   },
   {
    "pattern": "vol_squeeze_up",
-   "n_signals": 33640,
+   "n_signals": 33632,
    "p_up": 0.34,
    "p_strong_1pct": 0.22,
-   "p_5pct": 0.0413,
+   "p_5pct": 0.0412,
    "p_ara_15pct": 0.0045,
-   "mean_next_day": 0.00157,
+   "mean_next_day": 0.00156,
    "lift_strong_vs_base": 0.93,
    "lift_ara_vs_base": 0.9,
    "perm_p_strong": 1.0,
-   "perm_p_ara": 0.8985,
+   "perm_p_ara": 0.8979,
    "mc10k": {
-    "cagr_p50": 0.241,
-    "cagr_p5": 0.0867,
+    "cagr_p50": 0.2413,
+    "cagr_p5": 0.087,
     "maxdd_p50": -0.633,
     "calmar_p50": 0.38,
     "p_cagr_neg": 0.004,
@@ -347,7 +338,7 @@
    "confluence": 1,
    "basis_series": "consecutive_up3",
    "n_history": 75,
-   "p_next_1pct": 0.352,
+   "p_next_1pct": 0.351,
    "exp_next_day": 0.0031,
    "ev_net": 0.0022,
    "verdict": "EKSEKUSI",
@@ -380,7 +371,7 @@
    "basis_series": "pullback_uptrend",
    "n_history": 255,
    "p_next_1pct": 0.368,
-   "exp_next_day": 0.0024,
+   "exp_next_day": 0.0023,
    "ev_net": 0.0011,
    "verdict": "EKSEKUSI",
    "reason": "ok",
@@ -468,38 +459,6 @@
    "prob_basis": "backtest"
   },
   {
-   "ticker": "CTRA",
-   "patterns": [
-    "pullback_uptrend"
-   ],
-   "confluence": 1,
-   "basis_series": "pullback_uptrend",
-   "n_history": 764,
-   "p_next_1pct": 0.354,
-   "exp_next_day": 0.0011,
-   "ev_net": 0.0005,
-   "verdict": "TUNGGU",
-   "reason": "marginal_edge",
-   "size_pct": 0.0,
-   "prob_basis": "backtest"
-  },
-  {
-   "ticker": "HEXA",
-   "patterns": [
-    "consecutive_up3"
-   ],
-   "confluence": 1,
-   "basis_series": "consecutive_up3",
-   "n_history": 352,
-   "p_next_1pct": 0.319,
-   "exp_next_day": 0.0056,
-   "ev_net": 0.0003,
-   "verdict": "TUNGGU",
-   "reason": "marginal_edge",
-   "size_pct": 0.0,
-   "prob_basis": "backtest"
-  },
-  {
    "ticker": "CBDK",
    "patterns": [
     "consecutive_up3"
@@ -540,24 +499,8 @@
    "basis_series": "near_52w_high",
    "n_history": 41,
    "p_next_1pct": 0.272,
-   "exp_next_day": -0.0004,
+   "exp_next_day": -0.0003,
    "ev_net": -0.0003,
-   "verdict": "LEWATI",
-   "reason": "edge_below_cost",
-   "size_pct": 0.0,
-   "prob_basis": "backtest"
-  },
-  {
-   "ticker": "MAPI",
-   "patterns": [
-    "near_52w_high"
-   ],
-   "confluence": 1,
-   "basis_series": "near_52w_high",
-   "n_history": 621,
-   "p_next_1pct": 0.271,
-   "exp_next_day": -0.0022,
-   "ev_net": -0.0004,
    "verdict": "LEWATI",
    "reason": "edge_below_cost",
    "size_pct": 0.0,
@@ -650,8 +593,8 @@
    ],
    "confluence": 1,
    "basis_series": "pullback_uptrend",
-   "n_history": 514,
-   "p_next_1pct": 0.328,
+   "n_history": 513,
+   "p_next_1pct": 0.329,
    "exp_next_day": 0.0031,
    "ev_net": -0.0007,
    "verdict": "LEWATI",
@@ -692,23 +635,6 @@
    "prob_basis": "backtest"
   },
   {
-   "ticker": "ASGR",
-   "patterns": [
-    "near_52w_high",
-    "pullback_uptrend"
-   ],
-   "confluence": 2,
-   "basis_series": "confluence",
-   "n_history": 185,
-   "p_next_1pct": 0.281,
-   "exp_next_day": -0.0003,
-   "ev_net": -0.0012,
-   "verdict": "LEWATI",
-   "reason": "edge_below_cost",
-   "size_pct": 0.0,
-   "prob_basis": "backtest"
-  },
-  {
    "ticker": "GJTL",
    "patterns": [
     "consecutive_up3"
@@ -741,6 +667,39 @@
    "prob_basis": "backtest"
   },
   {
+   "ticker": "ASGR",
+   "patterns": [
+    "near_52w_high",
+    "pullback_uptrend"
+   ],
+   "confluence": 2,
+   "basis_series": "confluence",
+   "n_history": 183,
+   "p_next_1pct": 0.279,
+   "exp_next_day": -0.0004,
+   "ev_net": -0.0013,
+   "verdict": "LEWATI",
+   "reason": "edge_below_cost",
+   "size_pct": 0.0,
+   "prob_basis": "backtest"
+  },
+  {
+   "ticker": "GGRM",
+   "patterns": [
+    "near_52w_high"
+   ],
+   "confluence": 1,
+   "basis_series": "near_52w_high",
+   "n_history": 635,
+   "p_next_1pct": 0.253,
+   "exp_next_day": 0.0009,
+   "ev_net": -0.0013,
+   "verdict": "LEWATI",
+   "reason": "edge_below_cost",
+   "size_pct": 0.0,
+   "prob_basis": "backtest"
+  },
+  {
    "ticker": "INPC",
    "patterns": [
     "consecutive_up3"
@@ -763,7 +722,7 @@
    ],
    "confluence": 1,
    "basis_series": "pullback_uptrend",
-   "n_history": 976,
+   "n_history": 977,
    "p_next_1pct": 0.312,
    "exp_next_day": 0.001,
    "ev_net": -0.0014,
@@ -779,9 +738,9 @@
    ],
    "confluence": 1,
    "basis_series": "pullback_uptrend",
-   "n_history": 427,
+   "n_history": 426,
    "p_next_1pct": 0.31,
-   "exp_next_day": 0.0025,
+   "exp_next_day": 0.0022,
    "ev_net": -0.0015,
    "verdict": "LEWATI",
    "reason": "edge_below_cost",
@@ -831,6 +790,22 @@
    "p_next_1pct": 0.306,
    "exp_next_day": 0.0014,
    "ev_net": -0.0017,
+   "verdict": "LEWATI",
+   "reason": "edge_below_cost",
+   "size_pct": 0.0,
+   "prob_basis": "backtest"
+  },
+  {
+   "ticker": "MLPL",
+   "patterns": [
+    "pullback_uptrend"
+   ],
+   "confluence": 1,
+   "basis_series": "pullback_uptrend",
+   "n_history": 453,
+   "p_next_1pct": 0.301,
+   "exp_next_day": 0.0022,
+   "ev_net": -0.0019,
    "verdict": "LEWATI",
    "reason": "edge_below_cost",
    "size_pct": 0.0,
@@ -901,38 +876,6 @@
    "prob_basis": "backtest"
   },
   {
-   "ticker": "MEDC",
-   "patterns": [
-    "pullback_uptrend"
-   ],
-   "confluence": 1,
-   "basis_series": "pullback_uptrend",
-   "n_history": 743,
-   "p_next_1pct": 0.299,
-   "exp_next_day": 0.001,
-   "ev_net": -0.002,
-   "verdict": "LEWATI",
-   "reason": "edge_below_cost",
-   "size_pct": 0.0,
-   "prob_basis": "backtest"
-  },
-  {
-   "ticker": "MLPL",
-   "patterns": [
-    "pullback_uptrend"
-   ],
-   "confluence": 1,
-   "basis_series": "pullback_uptrend",
-   "n_history": 454,
-   "p_next_1pct": 0.301,
-   "exp_next_day": 0.0021,
-   "ev_net": -0.002,
-   "verdict": "LEWATI",
-   "reason": "edge_below_cost",
-   "size_pct": 0.0,
-   "prob_basis": "backtest"
-  },
-  {
    "ticker": "SRTG",
    "patterns": [
     "consecutive_up3"
@@ -942,6 +885,22 @@
    "n_history": 142,
    "p_next_1pct": 0.276,
    "exp_next_day": 0.0023,
+   "ev_net": -0.0021,
+   "verdict": "LEWATI",
+   "reason": "edge_below_cost",
+   "size_pct": 0.0,
+   "prob_basis": "backtest"
+  },
+  {
+   "ticker": "MEDC",
+   "patterns": [
+    "pullback_uptrend"
+   ],
+   "confluence": 1,
+   "basis_series": "pullback_uptrend",
+   "n_history": 743,
+   "p_next_1pct": 0.297,
+   "exp_next_day": 0.001,
    "ev_net": -0.0021,
    "verdict": "LEWATI",
    "reason": "edge_below_cost",
@@ -971,27 +930,10 @@
    ],
    "confluence": 1,
    "basis_series": "pullback_uptrend",
-   "n_history": 325,
-   "p_next_1pct": 0.297,
+   "n_history": 324,
+   "p_next_1pct": 0.298,
    "exp_next_day": -0.0004,
    "ev_net": -0.0021,
-   "verdict": "LEWATI",
-   "reason": "edge_below_cost",
-   "size_pct": 0.0,
-   "prob_basis": "backtest"
-  },
-  {
-   "ticker": "GGRM",
-   "patterns": [
-    "consecutive_up3",
-    "near_52w_high"
-   ],
-   "confluence": 2,
-   "basis_series": "confluence",
-   "n_history": 283,
-   "p_next_1pct": 0.26,
-   "exp_next_day": -0.0002,
-   "ev_net": -0.0023,
    "verdict": "LEWATI",
    "reason": "edge_below_cost",
    "size_pct": 0.0,
@@ -1004,9 +946,9 @@
    ],
    "confluence": 1,
    "basis_series": "consecutive_up3",
-   "n_history": 364,
+   "n_history": 365,
    "p_next_1pct": 0.27,
-   "exp_next_day": 0.0005,
+   "exp_next_day": 0.0004,
    "ev_net": -0.0024,
    "verdict": "LEWATI",
    "reason": "edge_below_cost",
@@ -1020,9 +962,9 @@
    ],
    "confluence": 1,
    "basis_series": "pullback_uptrend",
-   "n_history": 752,
+   "n_history": 749,
    "p_next_1pct": 0.291,
-   "exp_next_day": 0.0019,
+   "exp_next_day": 0.0018,
    "ev_net": -0.0024,
    "verdict": "LEWATI",
    "reason": "edge_below_cost",
@@ -1053,41 +995,9 @@
    "confluence": 1,
    "basis_series": "pullback_uptrend",
    "n_history": 278,
-   "p_next_1pct": 0.284,
+   "p_next_1pct": 0.287,
    "exp_next_day": 0.0022,
-   "ev_net": -0.0027,
-   "verdict": "LEWATI",
-   "reason": "edge_below_cost",
-   "size_pct": 0.0,
-   "prob_basis": "backtest"
-  },
-  {
-   "ticker": "MBSS",
-   "patterns": [
-    "pullback_uptrend"
-   ],
-   "confluence": 1,
-   "basis_series": "pullback_uptrend",
-   "n_history": 440,
-   "p_next_1pct": 0.282,
-   "exp_next_day": 0.0001,
-   "ev_net": -0.0028,
-   "verdict": "LEWATI",
-   "reason": "edge_below_cost",
-   "size_pct": 0.0,
-   "prob_basis": "backtest"
-  },
-  {
-   "ticker": "MNCN",
-   "patterns": [
-    "pullback_uptrend"
-   ],
-   "confluence": 1,
-   "basis_series": "pullback_uptrend",
-   "n_history": 495,
-   "p_next_1pct": 0.283,
-   "exp_next_day": -0.0002,
-   "ev_net": -0.0028,
+   "ev_net": -0.0026,
    "verdict": "LEWATI",
    "reason": "edge_below_cost",
    "size_pct": 0.0,
@@ -1116,8 +1026,8 @@
    ],
    "confluence": 1,
    "basis_series": "pullback_uptrend",
-   "n_history": 636,
-   "p_next_1pct": 0.28,
+   "n_history": 634,
+   "p_next_1pct": 0.281,
    "exp_next_day": 0.0,
    "ev_net": -0.0029,
    "verdict": "LEWATI",
@@ -1174,22 +1084,6 @@
    "prob_basis": "backtest"
   },
   {
-   "ticker": "PNLF",
-   "patterns": [
-    "consecutive_up3"
-   ],
-   "confluence": 1,
-   "basis_series": "consecutive_up3",
-   "n_history": 224,
-   "p_next_1pct": 0.25,
-   "exp_next_day": -0.003,
-   "ev_net": -0.0036,
-   "verdict": "LEWATI",
-   "reason": "edge_below_cost",
-   "size_pct": 0.0,
-   "prob_basis": "backtest"
-  },
-  {
    "ticker": "BVIC",
    "patterns": [
     "consecutive_up3"
@@ -1222,22 +1116,6 @@
    "prob_basis": "backtest"
   },
   {
-   "ticker": "BMRI",
-   "patterns": [
-    "consecutive_up3"
-   ],
-   "confluence": 1,
-   "basis_series": "consecutive_up3",
-   "n_history": 451,
-   "p_next_1pct": 0.244,
-   "exp_next_day": -0.0006,
-   "ev_net": -0.0039,
-   "verdict": "LEWATI",
-   "reason": "edge_below_cost",
-   "size_pct": 0.0,
-   "prob_basis": "backtest"
-  },
-  {
    "ticker": "MKTR",
    "patterns": [
     "consecutive_up3"
@@ -1260,25 +1138,9 @@
    ],
    "confluence": 1,
    "basis_series": "pullback_uptrend",
-   "n_history": 514,
-   "p_next_1pct": 0.258,
+   "n_history": 512,
+   "p_next_1pct": 0.259,
    "exp_next_day": 0.0012,
-   "ev_net": -0.0039,
-   "verdict": "LEWATI",
-   "reason": "edge_below_cost",
-   "size_pct": 0.0,
-   "prob_basis": "backtest"
-  },
-  {
-   "ticker": "KIJA",
-   "patterns": [
-    "pullback_uptrend"
-   ],
-   "confluence": 1,
-   "basis_series": "pullback_uptrend",
-   "n_history": 558,
-   "p_next_1pct": 0.257,
-   "exp_next_day": 0.0008,
    "ev_net": -0.0039,
    "verdict": "LEWATI",
    "reason": "edge_below_cost",
@@ -1292,9 +1154,25 @@
    ],
    "confluence": 1,
    "basis_series": "pullback_uptrend",
-   "n_history": 474,
-   "p_next_1pct": 0.254,
+   "n_history": 475,
+   "p_next_1pct": 0.256,
    "exp_next_day": 0.0001,
+   "ev_net": -0.004,
+   "verdict": "LEWATI",
+   "reason": "edge_below_cost",
+   "size_pct": 0.0,
+   "prob_basis": "backtest"
+  },
+  {
+   "ticker": "BMRI",
+   "patterns": [
+    "consecutive_up3"
+   ],
+   "confluence": 1,
+   "basis_series": "consecutive_up3",
+   "n_history": 451,
+   "p_next_1pct": 0.24,
+   "exp_next_day": -0.0006,
    "ev_net": -0.0041,
    "verdict": "LEWATI",
    "reason": "edge_below_cost",
@@ -1318,22 +1196,6 @@
    "prob_basis": "backtest"
   },
   {
-   "ticker": "BTPN",
-   "patterns": [
-    "consecutive_up3"
-   ],
-   "confluence": 1,
-   "basis_series": "consecutive_up3",
-   "n_history": 206,
-   "p_next_1pct": 0.239,
-   "exp_next_day": 0.0033,
-   "ev_net": -0.0042,
-   "verdict": "LEWATI",
-   "reason": "edge_below_cost",
-   "size_pct": 0.0,
-   "prob_basis": "backtest"
-  },
-  {
    "ticker": "SIMP",
    "patterns": [
     "pullback_uptrend"
@@ -1341,9 +1203,9 @@
    "confluence": 1,
    "basis_series": "pullback_uptrend",
    "n_history": 409,
-   "p_next_1pct": 0.249,
+   "p_next_1pct": 0.251,
    "exp_next_day": -0.0008,
-   "ev_net": -0.0043,
+   "ev_net": -0.0042,
    "verdict": "LEWATI",
    "reason": "edge_below_cost",
    "size_pct": 0.0,
@@ -1366,6 +1228,22 @@
    "prob_basis": "backtest"
   },
   {
+   "ticker": "BTPN",
+   "patterns": [
+    "consecutive_up3"
+   ],
+   "confluence": 1,
+   "basis_series": "consecutive_up3",
+   "n_history": 206,
+   "p_next_1pct": 0.234,
+   "exp_next_day": 0.0033,
+   "ev_net": -0.0044,
+   "verdict": "LEWATI",
+   "reason": "edge_below_cost",
+   "size_pct": 0.0,
+   "prob_basis": "backtest"
+  },
+  {
    "ticker": "MSTI",
    "patterns": [
     "consecutive_up3"
@@ -1375,6 +1253,22 @@
    "n_history": 31,
    "p_next_1pct": 0.235,
    "exp_next_day": -0.0009,
+   "ev_net": -0.0044,
+   "verdict": "LEWATI",
+   "reason": "edge_below_cost",
+   "size_pct": 0.0,
+   "prob_basis": "backtest"
+  },
+  {
+   "ticker": "IPCC",
+   "patterns": [
+    "pullback_uptrend"
+   ],
+   "confluence": 1,
+   "basis_series": "pullback_uptrend",
+   "n_history": 235,
+   "p_next_1pct": 0.246,
+   "exp_next_day": -0.0002,
    "ev_net": -0.0044,
    "verdict": "LEWATI",
    "reason": "edge_below_cost",
@@ -1414,16 +1308,16 @@
    "prob_basis": "backtest"
   },
   {
-   "ticker": "IPCC",
+   "ticker": "SOCI",
    "patterns": [
     "pullback_uptrend"
    ],
    "confluence": 1,
    "basis_series": "pullback_uptrend",
-   "n_history": 235,
-   "p_next_1pct": 0.242,
-   "exp_next_day": -0.0002,
-   "ev_net": -0.0046,
+   "n_history": 301,
+   "p_next_1pct": 0.239,
+   "exp_next_day": 0.0001,
+   "ev_net": -0.0048,
    "verdict": "LEWATI",
    "reason": "edge_below_cost",
    "size_pct": 0.0,
@@ -1446,31 +1340,15 @@
    "prob_basis": "backtest"
   },
   {
-   "ticker": "SOCI",
-   "patterns": [
-    "pullback_uptrend"
-   ],
-   "confluence": 1,
-   "basis_series": "pullback_uptrend",
-   "n_history": 300,
-   "p_next_1pct": 0.237,
-   "exp_next_day": 0.0001,
-   "ev_net": -0.0049,
-   "verdict": "LEWATI",
-   "reason": "edge_below_cost",
-   "size_pct": 0.0,
-   "prob_basis": "backtest"
-  },
-  {
    "ticker": "MPMX",
    "patterns": [
     "near_52w_high"
    ],
    "confluence": 1,
    "basis_series": "near_52w_high",
-   "n_history": 640,
+   "n_history": 642,
    "p_next_1pct": 0.183,
-   "exp_next_day": 0.0012,
+   "exp_next_day": 0.001,
    "ev_net": -0.005,
    "verdict": "LEWATI",
    "reason": "edge_below_cost",
@@ -1510,23 +1388,6 @@
    "prob_basis": "backtest"
   },
   {
-   "ticker": "POWR",
-   "patterns": [
-    "near_52w_high",
-    "pullback_uptrend"
-   ],
-   "confluence": 2,
-   "basis_series": "confluence",
-   "n_history": 86,
-   "p_next_1pct": 0.189,
-   "exp_next_day": 0.0004,
-   "ev_net": -0.006,
-   "verdict": "LEWATI",
-   "reason": "edge_below_cost",
-   "size_pct": 0.0,
-   "prob_basis": "backtest"
-  },
-  {
    "ticker": "DMAS",
    "patterns": [
     "near_52w_high",
@@ -1544,16 +1405,32 @@
    "prob_basis": "backtest"
   },
   {
+   "ticker": "POWR",
+   "patterns": [
+    "near_52w_high"
+   ],
+   "confluence": 1,
+   "basis_series": "near_52w_high",
+   "n_history": 415,
+   "p_next_1pct": 0.127,
+   "exp_next_day": -0.0003,
+   "ev_net": -0.0079,
+   "verdict": "LEWATI",
+   "reason": "edge_below_cost",
+   "size_pct": 0.0,
+   "prob_basis": "backtest"
+  },
+  {
    "ticker": "MLBI",
    "patterns": [
     "near_52w_high"
    ],
    "confluence": 1,
    "basis_series": "near_52w_high",
-   "n_history": 1460,
+   "n_history": 1464,
    "p_next_1pct": 0.101,
-   "exp_next_day": 0.0025,
-   "ev_net": -0.0092,
+   "exp_next_day": 0.0024,
+   "ev_net": -0.0093,
    "verdict": "LEWATI",
    "reason": "edge_below_cost",
    "size_pct": 0.0,

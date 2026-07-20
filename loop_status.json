@@ -101,7 +101,7 @@
     {
      "rank": 4,
      "strategy": "buyhold_ew",
-     "ytd_pct": 10.12,
+     "ytd_pct": 10.08,
      "survivability": 0.627,
      "mc10k_pass": true
     },
@@ -115,35 +115,35 @@
     {
      "rank": 6,
      "strategy": "vol_target_ew",
-     "ytd_pct": 6.38,
+     "ytd_pct": 6.36,
      "survivability": 0.71,
      "mc10k_pass": true
     },
     {
      "rank": 7,
      "strategy": "sixty_forty",
-     "ytd_pct": 5.42,
+     "ytd_pct": 5.34,
      "survivability": 0.711,
      "mc10k_pass": true
     },
     {
      "rank": 8,
      "strategy": "tsmom_12m",
-     "ytd_pct": 6.97,
+     "ytd_pct": 6.95,
      "survivability": 0.681,
      "mc10k_pass": true
     },
     {
      "rank": 9,
      "strategy": "risk_parity",
-     "ytd_pct": 9.38,
+     "ytd_pct": 9.35,
      "survivability": 0.625,
      "mc10k_pass": true
     },
     {
      "rank": 10,
      "strategy": "min_vol",
-     "ytd_pct": 9.5,
+     "ytd_pct": 9.49,
      "survivability": 0.607,
      "mc10k_pass": true
     }
@@ -198,14 +198,14 @@
  "perf": {
   "budget_s": 0.5,
   "seconds": {
-   "patterns": 0.338,
-   "hedgefund": 0.163,
-   "fund": 0.163,
-   "predictions": 0.155,
-   "backend_health": 0.378
+   "patterns": 0.369,
+   "hedgefund": 0.34,
+   "fund": 0.33,
+   "predictions": 0.337,
+   "backend_health": 0.384
   },
   "breaches": [],
-  "worst_s": 0.378,
+  "worst_s": 0.384,
   "within_budget": true,
   "note": "full-GET latency of every published data point, measured this run; client pages additionally paint instantly from the lswr snapshot cache"
  },

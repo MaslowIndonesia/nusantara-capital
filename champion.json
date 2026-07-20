@@ -66,9 +66,9 @@
   }
  },
  "ledger": {
-  "rows": 179,
+  "rows": 180,
   "latest": {
-   "date": "2026-07-19",
+   "date": "2026-07-20",
    "best_factor": "bab",
    "top_n": "10",
    "weight": "ew",
@@ -78,25 +78,15 @@
    "is_maxdd": "",
    "oos_cagr": "",
    "oos_calmar": "",
-   "dsr": "0.815",
+   "dsr": "0.822",
    "dsr_sig": "False",
    "pbo": "0.065",
    "n_trials": "96",
-   "total_runs": "179",
+   "total_runs": "180",
    "conviction": "low"
   },
   "forward_status": "accruing",
   "recent": [
-   {
-    "date": "2026-07-18",
-    "run": 168,
-    "factor": "bab",
-    "oos_cagr": 0.0,
-    "oos_calmar": 0.0,
-    "dsr_sig": false,
-    "n_trials": 96,
-    "conviction": "low"
-   },
    {
     "date": "2026-07-18",
     "run": 169,
@@ -200,6 +190,16 @@
    {
     "date": "2026-07-19",
     "run": 179,
+    "factor": "bab",
+    "oos_cagr": 0.0,
+    "oos_calmar": 0.0,
+    "dsr_sig": false,
+    "n_trials": 96,
+    "conviction": "low"
+   },
+   {
+    "date": "2026-07-20",
+    "run": 180,
     "factor": "bab",
     "oos_cagr": 0.0,
     "oos_calmar": 0.0,
@@ -463,7 +463,7 @@
    1.0993,
    0.9682,
    0.8917,
-   0.9758
+   0.9816
   ],
   "drawdown": [
    0.0,
