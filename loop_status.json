@@ -2,27 +2,27 @@
  "generated": "2026-07-22",
  "title": "Nusantara Capital \u2014 loop upgrades & accuracy",
  "accuracy": {
-  "overall_forward_hit_1pct": 0.335,
-  "n_scored": 483,
+  "overall_forward_hit_1pct": 0.313,
+  "n_scored": 559,
   "calibration": {
-   "n": 439,
-   "predicted_p": 0.28,
-   "realized_p": 0.323,
-   "ratio": 1.15,
+   "n": 515,
+   "predicted_p": 0.279,
+   "realized_p": 0.301,
+   "ratio": 1.08,
    "goal": 1.0
   },
   "by_verdict": {
    "EKSEKUSI": {
-    "n": 64,
-    "hit_1pct": 0.453
+    "n": 74,
+    "hit_1pct": 0.419
    },
    "TUNGGU": {
-    "n": 35,
-    "hit_1pct": 0.457
+    "n": 38,
+    "hit_1pct": 0.447
    },
    "LEWATI": {
-    "n": 384,
-    "hit_1pct": 0.305
+    "n": 447,
+    "hit_1pct": 0.284
    }
   },
   "calibration_trend": [
@@ -67,6 +67,13 @@
     "predicted": 0.274,
     "realized": 0.346,
     "ratio": 1.26
+   },
+   {
+    "date": "2026-07-21",
+    "n": 76,
+    "predicted": 0.27,
+    "realized": 0.171,
+    "ratio": 0.63
    }
   ],
   "note": "Forward = out-of-sample: the probability shown at fire time vs whether the stock actually rose >=1% next day. Calibration ratio realized/predicted -> 1.00 means the shown probability IS the truth. Paper research, not advice."
@@ -181,7 +188,7 @@
    ]
   },
   "pattern_gate": {
-   "as_of": "2026-07-21",
+   "as_of": "2026-07-22",
    "candidates": [
     "consecutive_up3",
     "near_52w_high",
@@ -205,26 +212,23 @@
    "distinct_days": 10
   },
   "pattern_accuracy": {
-   "last_run": "2026-07-21",
-   "distinct_days": 7
+   "last_run": "2026-07-22",
+   "distinct_days": 8
   }
  },
  "perf": {
   "budget_s": 0.5,
   "seconds": {
-   "patterns": 5.542,
-   "hedgefund": 5.369,
-   "fund": 5.487,
-   "predictions": 5.427,
-   "backend_health": 0.386
+   "patterns": 0.108,
+   "hedgefund": 0.453,
+   "fund": 0.354,
+   "predictions": 0.358,
+   "backend_health": 3.696
   },
   "breaches": [
-   "patterns",
-   "hedgefund",
-   "fund",
-   "predictions"
+   "backend_health"
   ],
-  "worst_s": 5.542,
+  "worst_s": 3.696,
   "within_budget": false,
   "note": "full-GET latency of every published data point, measured this run; client pages additionally paint instantly from the lswr snapshot cache"
  },
