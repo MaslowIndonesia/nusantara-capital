@@ -1,28 +1,28 @@
 {
- "generated": "2026-07-21",
+ "generated": "2026-07-22",
  "title": "Nusantara Capital \u2014 loop upgrades & accuracy",
  "accuracy": {
-  "overall_forward_hit_1pct": 0.333,
-  "n_scored": 402,
+  "overall_forward_hit_1pct": 0.335,
+  "n_scored": 483,
   "calibration": {
-   "n": 358,
-   "predicted_p": 0.282,
-   "realized_p": 0.318,
-   "ratio": 1.13,
+   "n": 439,
+   "predicted_p": 0.28,
+   "realized_p": 0.323,
+   "ratio": 1.15,
    "goal": 1.0
   },
   "by_verdict": {
    "EKSEKUSI": {
-    "n": 57,
-    "hit_1pct": 0.474
+    "n": 64,
+    "hit_1pct": 0.453
    },
    "TUNGGU": {
-    "n": 30,
-    "hit_1pct": 0.433
+    "n": 35,
+    "hit_1pct": 0.457
    },
    "LEWATI": {
-    "n": 315,
-    "hit_1pct": 0.298
+    "n": 384,
+    "hit_1pct": 0.305
    }
   },
   "calibration_trend": [
@@ -60,6 +60,13 @@
     "predicted": 0.28,
     "realized": 0.359,
     "ratio": 1.28
+   },
+   {
+    "date": "2026-07-20",
+    "n": 81,
+    "predicted": 0.274,
+    "realized": 0.346,
+    "ratio": 1.26
    }
   ],
   "note": "Forward = out-of-sample: the probability shown at fire time vs whether the stock actually rose >=1% next day. Calibration ratio realized/predicted -> 1.00 means the shown probability IS the truth. Paper research, not advice."
@@ -81,8 +88,8 @@
    "note": "The IHSG cross-sectional factor the robustness engine keeps selecting. Low conviction + DSR-insignificant is HONEST: no IHSG factor has yet earned high conviction."
   },
   "hedge_fund_top10": {
-   "as_of": "2026-07-21",
-   "runs": 9,
+   "as_of": "2026-07-22",
+   "runs": 10,
    "top": [
     {
      "rank": 1,
@@ -158,23 +165,23 @@
    "persistent_leaders": [
     {
      "strategy": "gtaa_ma10",
-     "top3_runs": 9,
-     "of_runs": 9
+     "top3_runs": 10,
+     "of_runs": 10
     },
     {
      "strategy": "dual_momentum",
-     "top3_runs": 9,
-     "of_runs": 9
+     "top3_runs": 10,
+     "of_runs": 10
     },
     {
      "strategy": "vol_target_trend",
-     "top3_runs": 9,
-     "of_runs": 9
+     "top3_runs": 10,
+     "of_runs": 10
     }
    ]
   },
   "pattern_gate": {
-   "as_of": "2026-07-20",
+   "as_of": "2026-07-21",
    "candidates": [
     "consecutive_up3",
     "near_52w_high",
@@ -194,27 +201,27 @@
    "distinct_days": 23
   },
   "hedge_fund": {
-   "last_run": "2026-07-21",
-   "distinct_days": 9
+   "last_run": "2026-07-22",
+   "distinct_days": 10
   },
   "pattern_accuracy": {
-   "last_run": "2026-07-20",
-   "distinct_days": 6
+   "last_run": "2026-07-21",
+   "distinct_days": 7
   }
  },
  "perf": {
   "budget_s": 0.5,
   "seconds": {
-   "patterns": 0.449,
-   "hedgefund": 0.367,
-   "fund": 0.34,
-   "predictions": 0.406,
-   "backend_health": 3.791
+   "patterns": 0.41,
+   "hedgefund": 0.382,
+   "fund": 0.393,
+   "predictions": 0.374,
+   "backend_health": 3.468
   },
   "breaches": [
    "backend_health"
   ],
-  "worst_s": 3.791,
+  "worst_s": 3.468,
   "within_budget": false,
   "note": "full-GET latency of every published data point, measured this run; client pages additionally paint instantly from the lswr snapshot cache"
  },
