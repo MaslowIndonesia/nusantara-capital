@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-23",
+ "generated": "2026-07-24",
  "title": "Nusantara Capital \u2014 loop upgrades & accuracy",
  "accuracy": {
   "overall_forward_hit_1pct": 0.322,
@@ -102,8 +102,8 @@
    "note": "The IHSG cross-sectional factor the robustness engine keeps selecting. Low conviction + DSR-insignificant is HONEST: no IHSG factor has yet earned high conviction."
   },
   "hedge_fund_top10": {
-   "as_of": "2026-07-23",
-   "runs": 11,
+   "as_of": "2026-07-24",
+   "runs": 12,
    "top": [
     {
      "rank": 1,
@@ -179,18 +179,18 @@
    "persistent_leaders": [
     {
      "strategy": "gtaa_ma10",
-     "top3_runs": 11,
-     "of_runs": 11
+     "top3_runs": 12,
+     "of_runs": 12
     },
     {
      "strategy": "dual_momentum",
-     "top3_runs": 11,
-     "of_runs": 11
+     "top3_runs": 12,
+     "of_runs": 12
     },
     {
      "strategy": "vol_target_trend",
-     "top3_runs": 11,
-     "of_runs": 11
+     "top3_runs": 12,
+     "of_runs": 12
     }
    ]
   },
@@ -215,8 +215,8 @@
    "distinct_days": 23
   },
   "hedge_fund": {
-   "last_run": "2026-07-23",
-   "distinct_days": 11
+   "last_run": "2026-07-24",
+   "distinct_days": 12
   },
   "pattern_accuracy": {
    "last_run": "2026-07-23",
@@ -226,15 +226,17 @@
  "perf": {
   "budget_s": 0.5,
   "seconds": {
-   "patterns": 0.359,
-   "hedgefund": 0.362,
-   "fund": 0.343,
-   "predictions": 0.338,
-   "backend_health": 0.376
+   "patterns": 0.438,
+   "hedgefund": 0.445,
+   "fund": 0.377,
+   "predictions": 0.404,
+   "backend_health": 0.615
   },
-  "breaches": [],
-  "worst_s": 0.376,
-  "within_budget": true,
+  "breaches": [
+   "backend_health"
+  ],
+  "worst_s": 0.615,
+  "within_budget": false,
   "note": "full-GET latency of every published data point, measured this run; client pages additionally paint instantly from the lswr snapshot cache"
  },
  "disclaimer": "Research / backtest / paper simulation only \u2014 not investment advice. Every number is read from the loop's own forward ledgers; nothing here is projected."
