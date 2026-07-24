@@ -233,16 +233,18 @@
  "perf": {
   "budget_s": 0.5,
   "seconds": {
-   "patterns": 0.104,
-   "hedgefund": 0.442,
-   "fund": 0.407,
-   "predictions": 0.41,
-   "backend_health": 3.586
+   "patterns": 0.452,
+   "hedgefund": 0.51,
+   "fund": 0.411,
+   "predictions": 0.511,
+   "backend_health": 5.633
   },
   "breaches": [
+   "hedgefund",
+   "predictions",
    "backend_health"
   ],
-  "worst_s": 3.586,
+  "worst_s": 5.633,
   "within_budget": false,
   "note": "full-GET latency of every published data point, measured this run; client pages additionally paint instantly from the lswr snapshot cache"
  },
