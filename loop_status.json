@@ -2,27 +2,27 @@
  "generated": "2026-07-24",
  "title": "Nusantara Capital \u2014 loop upgrades & accuracy",
  "accuracy": {
-  "overall_forward_hit_1pct": 0.322,
-  "n_scored": 630,
+  "overall_forward_hit_1pct": 0.294,
+  "n_scored": 705,
   "calibration": {
-   "n": 586,
+   "n": 661,
    "predicted_p": 0.278,
-   "realized_p": 0.312,
-   "ratio": 1.12,
+   "realized_p": 0.283,
+   "ratio": 1.02,
    "goal": 1.0
   },
   "by_verdict": {
    "EKSEKUSI": {
-    "n": 81,
-    "hit_1pct": 0.457
+    "n": 90,
+    "hit_1pct": 0.422
    },
    "TUNGGU": {
-    "n": 45,
-    "hit_1pct": 0.489
+    "n": 51,
+    "hit_1pct": 0.431
    },
    "LEWATI": {
-    "n": 504,
-    "hit_1pct": 0.286
+    "n": 564,
+    "hit_1pct": 0.261
    }
   },
   "calibration_trend": [
@@ -81,6 +81,13 @@
     "predicted": 0.274,
     "realized": 0.394,
     "ratio": 1.44
+   },
+   {
+    "date": "2026-07-23",
+    "n": 75,
+    "predicted": 0.279,
+    "realized": 0.053,
+    "ratio": 0.19
    }
   ],
   "note": "Forward = out-of-sample: the probability shown at fire time vs whether the stock actually rose >=1% next day. Calibration ratio realized/predicted -> 1.00 means the shown probability IS the truth. Paper research, not advice."
@@ -195,7 +202,7 @@
    ]
   },
   "pattern_gate": {
-   "as_of": "2026-07-23",
+   "as_of": "2026-07-24",
    "candidates": [
     "consecutive_up3",
     "near_52w_high",
@@ -219,23 +226,23 @@
    "distinct_days": 12
   },
   "pattern_accuracy": {
-   "last_run": "2026-07-23",
-   "distinct_days": 9
+   "last_run": "2026-07-24",
+   "distinct_days": 10
   }
  },
  "perf": {
   "budget_s": 0.5,
   "seconds": {
-   "patterns": 0.096,
-   "hedgefund": 0.38,
+   "patterns": 0.104,
+   "hedgefund": 0.442,
    "fund": 0.407,
    "predictions": 0.41,
-   "backend_health": 0.511
+   "backend_health": 3.586
   },
   "breaches": [
    "backend_health"
   ],
-  "worst_s": 0.511,
+  "worst_s": 3.586,
   "within_budget": false,
   "note": "full-GET latency of every published data point, measured this run; client pages additionally paint instantly from the lswr snapshot cache"
  },

@@ -16,8 +16,8 @@
    "WIKA",
    "MTEL",
    "ITMG",
-   "MYOR",
    "BJBR",
+   "MYOR",
    "BYAN",
    "INDF",
    "BNGA",
@@ -34,8 +34,8 @@
    "WIKA",
    "MTEL",
    "ITMG",
-   "MYOR",
    "BJBR",
+   "MYOR",
    "BYAN",
    "INDF",
    "BNGA"
@@ -45,8 +45,8 @@
    "WIKA": 0.0,
    "MTEL": 0.14,
    "ITMG": 0.15,
-   "MYOR": 0.35,
    "BJBR": 0.35,
+   "MYOR": 0.36,
    "BYAN": 0.36,
    "INDF": 0.36,
    "BNGA": 0.36,
@@ -463,7 +463,7 @@
    1.0993,
    0.9682,
    0.8917,
-   0.9819
+   0.9791
   ],
   "drawdown": [
    0.0,
