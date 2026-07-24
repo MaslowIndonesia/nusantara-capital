@@ -83,7 +83,7 @@ svg text{font:12px var(--mono);fill:var(--muted)}
 <nav class="nav"><a href="#signal">Signal</a><a href="#forecast">Forecast</a><a href="#targets">Targets</a><a href="#survivability">Survivability</a><a href="#collective">Collective</a><a href="#runners">Runners</a><a href="#numen">Desk</a></nav>
 <div class="live"><span id="mkt" class="mkt red">IDX · —</span><span id="clock" class="clk">--:--:-- WIB</span></div></header>
 
-<div class="status crit"><span class=sdot></span><span class=ssum>STALE — last ledger run 183 · 2026-07-20 (4d ago)</span><span class=smeta>positions 2026-07-24 · next 2026-08-01 · rebalance in 8d</span></div>
+<div class="status ok"><span class=sdot></span><span class=ssum>LOOP FRESH — ledger run 184 · 2026-07-24</span><span class=smeta>positions 2026-07-24 · next 2026-08-01 · rebalance in 8d</span></div>
 
 <p class="thesis">An <b>institutional quant research loop for Indonesian equities only</b> — objective: survivability and a
 consistent higher CAGR with lower drawdown; every claim below is the loop's own measured output, gated by
@@ -93,9 +93,9 @@ Deflated-Sharpe + PBO + held-out OOS. <b>Research / paper only — never a live 
 <div class="card"><div class="k">Champion CAGR</div><div class="v up">38%</div><div class="sub">in-sample, survivorship-caveated</div></div>
 <div class="card"><div class="k">Max Drawdown</div><div class="v dd">-10%</div><div class="sub">vol-managed, no leverage</div></div>
 <div class="card"><div class="k">Calmar (OOS)</div><div class="v up">1.515</div><div class="sub">held-out 2022+</div></div>
-<div class="card"><div class="k">Deflated Sharpe</div><div class="v ">1.0</div><div class="sub">vs 96 configs · PBO 0.065</div></div>
+<div class="card"><div class="k">Deflated Sharpe</div><div class="v ">1.0</div><div class="sub">vs 96 configs · PBO 0.066</div></div>
 </div>
-<div class="sub" style="margin-top:10px">champion as of 2026-06-28 · 183 ledger runs · feeds — loop_status 2026-07-24 · patterns 2026-07-24 · top-10 2026-07-20 · predictions 2026-07-06</div>
+<div class="sub" style="margin-top:10px">champion as of 2026-06-28 · 184 ledger runs · feeds — loop_status 2026-07-24 · patterns 2026-07-24 · top-10 2026-07-20 · predictions 2026-07-06</div>
 
 <h2 id="signal">Operating signal — today's paper portfolio</h2>
 <div class="card"><div class="sub" style="margin-bottom:11px">positions as of <b style="color:var(--ink)">2026-07-24</b>
@@ -122,8 +122,8 @@ For the <b style="color:var(--ink)">daily tactical layer</b> (foreign-flow accum
 <h2 id="record">The proof — track record &amp; forward ledger</h2>
 <div class="card"><table>
 <tr><th>run</th><th>factor</th><th>OOS CAGR</th><th>OOS Calmar</th><th>DSR</th><th>conviction</th></tr>
-<tr><td>2026-07-20 · run 183</td><td>bab</td><td>—</td><td>—</td><td class='fail'>ns</td><td>low</td></tr><tr><td>2026-07-20 · run 182</td><td>bab</td><td>—</td><td>—</td><td class='fail'>ns</td><td>low</td></tr><tr><td>2026-07-20 · run 181</td><td>bab</td><td>—</td><td>—</td><td class='fail'>ns</td><td>low</td></tr>
-</table><div class="sub" style="margin-top:10px">183 runs logged, 46 sig — latest 3 shown · full machine feed in champion.json</div><div class="sub" style="margin-top:10px">Append-only write-ahead ledger — the only clean forward test. Each loop run adds a row; the gold marker on the curve is where forward proof begins.</div></div>
+<tr><td>2026-07-24 · run 184</td><td>bab</td><td>—</td><td>—</td><td class='fail'>ns</td><td>low</td></tr><tr><td>2026-07-20 · run 183</td><td>bab</td><td>—</td><td>—</td><td class='fail'>ns</td><td>low</td></tr><tr><td>2026-07-20 · run 182</td><td>bab</td><td>—</td><td>—</td><td class='fail'>ns</td><td>low</td></tr>
+</table><div class="sub" style="margin-top:10px">184 runs logged, 46 sig — latest 3 shown · full machine feed in champion.json</div><div class="sub" style="margin-top:10px">Append-only write-ahead ledger — the only clean forward test. Each loop run adds a row; the gold marker on the curve is where forward proof begins.</div></div>
 
 <h2 id="verdict">Verdict board (latest)</h2>
 <div class="card board"><div class="sub">board renders on the next run</div></div>
@@ -168,9 +168,9 @@ Investasi (OJK). Kinerja masa lalu tidak menjamin hasil di masa depan.</div>
 <h2 id="targets">Metric targets — the 2026-07-24 directive</h2>
 <div class="card"><table class="tgt">
 <tr><th>metric</th><th>current</th><th>target</th><th>honest note</th></tr>
-<tr><td>CAGR — in-sample</td><td>38%</td><td>↑ increase</td><td>survivorship-caveated; the OOS row is the honest one</td></tr><tr><td>CAGR — held-out OOS</td><td>14.4%</td><td>↑ increase</td><td>held-out 2022+</td></tr><tr><td>Max drawdown</td><td>-10%</td><td>↓ decrease</td><td>vol-managed, no leverage</td></tr><tr><td>Calmar — OOS</td><td>1.515</td><td>↑ increase</td><td>named invalidation: forward Calmar < 0.3</td></tr><tr><td>Deflated Sharpe</td><td>1.0</td><td>↑ to significance</td><td>vs 96 configs tried</td></tr><tr><td>PBO</td><td>0.065</td><td>↓ decrease</td><td>probability of backtest overfit</td></tr><tr><td>Conviction</td><td>low</td><td>↑ earn it</td><td>capped until the forward ledger matures</td></tr><tr><td>Forward hit ≥1%</td><td>29.4%</td><td>↑ increase</td><td>base P(≥1%) 23.6% · n=705 scored</td></tr><tr><td>Directional hit rate</td><td>53.3%</td><td>↑ increase</td><td>vs base 46.9% · 0.2% edge</td></tr><tr><td>Survivability — top-10 median</td><td>69.5%</td><td>↑ increase</td><td>MC10k pass-share of the defensive sleeves below</td></tr><tr><td>Profit factor</td><td>—</td><td>↑ increase</td><td>no IHSG-lane source field yet — not fabricated; measured today on the futures lane</td></tr><tr><td>Profitable trades %</td><td>29.4%</td><td>↑ increase</td><td>closest measured proxy: forward share of signals ≥1%</td></tr>
+<tr><td>CAGR — in-sample</td><td>38%</td><td>↑ increase</td><td>survivorship-caveated; the OOS row is the honest one</td></tr><tr><td>CAGR — held-out OOS</td><td>14.4%</td><td>↑ increase</td><td>held-out 2022+</td></tr><tr><td>Max drawdown</td><td>-10%</td><td>↓ decrease</td><td>vol-managed, no leverage</td></tr><tr><td>Calmar — OOS</td><td>1.515</td><td>↑ increase</td><td>named invalidation: forward Calmar < 0.3</td></tr><tr><td>Deflated Sharpe</td><td>1.0</td><td>↑ to significance</td><td>vs 96 configs tried</td></tr><tr><td>PBO</td><td>0.066</td><td>↓ decrease</td><td>probability of backtest overfit</td></tr><tr><td>Conviction</td><td>low</td><td>↑ earn it</td><td>capped until the forward ledger matures</td></tr><tr><td>Forward hit ≥1%</td><td>29.4%</td><td>↑ increase</td><td>base P(≥1%) 23.6% · n=705 scored</td></tr><tr><td>Directional hit rate</td><td>53.3%</td><td>↑ increase</td><td>vs base 46.9% · 0.2% edge</td></tr><tr><td>Survivability — top-10 median</td><td>69.5%</td><td>↑ increase</td><td>MC10k pass-share of the defensive sleeves below</td></tr><tr><td>Profit factor</td><td>—</td><td>↑ increase</td><td>no IHSG-lane source field yet — not fabricated; measured today on the futures lane</td></tr><tr><td>Profitable trades %</td><td>29.4%</td><td>↑ increase</td><td>closest measured proxy: forward share of signals ≥1%</td></tr>
 </table>
-<div class="sub" style="margin-top:10px">cadence: ihsg_factor 23 run-days · hedge_fund 12 run-days · pattern_accuracy 10 run-days · ledger 183 runs logged. Directional tracking lines set by Hans
+<div class="sub" style="margin-top:10px">cadence: ihsg_factor 24 run-days · hedge_fund 12 run-days · pattern_accuracy 10 run-days · ledger 184 runs logged. Directional tracking lines set by Hans
 (CAGR increase · drawdown decrease · survivability · profit factor increase · profitable trades % increase) — measured values only, never engineered.</div></div>
 
 <h2 id="survivability">Survivability — defensive top-10</h2>
@@ -206,7 +206,7 @@ The engine (claude-loops) now publishes both runners' last runs to this repo aft
 <div class="sub" style="margin-top:12px">machine feed: upgrades.json · per runner: latest + 3 recent × ts · estate · actor · mode · summary · evidence_path</div></div>
 
 <div class="foot"><div>Nusantara Capital · personal SaaS · paper/research only — never a live order</div>
-<div>site generated 2026-07-24T12:47Z · all panels read same-origin JSON feeds</div>
+<div>site generated 2026-07-24T16:48Z · all panels read same-origin JSON feeds</div>
 <div><a href="https://numen-web-gold.vercel.app">open the desk →</a></div></div>
 </div>
 <script>
